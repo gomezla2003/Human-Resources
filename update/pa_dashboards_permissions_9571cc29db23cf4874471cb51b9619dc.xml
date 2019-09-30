@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="pa_dashboards_permissions">
+    <pa_dashboards_permissions action="INSERT_OR_UPDATE">
+        <dashboard display_value="Breached incidents FS JCL">522e795bdbcbc74474471cb51b961914</dashboard>
+        <delete>false</delete>
+        <group/>
+        <identity>d8193eefdb870f4474471cb51b96199c</identity>
+        <read>true</read>
+        <role/>
+        <sys_class_name>pa_dashboards_permissions</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2018-01-08 17:50:51</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>9571cc29db23cf4874471cb51b9619dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>d8193eefdb870f4474471cb51b96199c</sys_name>
+        <sys_package display_value="Human Resources" source="x_sthc_human_resou">5166e53e6f310f0061f06ea22e3ee44b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Human Resources">5166e53e6f310f0061f06ea22e3ee44b</sys_scope>
+        <sys_update_name>pa_dashboards_permissions_9571cc29db23cf4874471cb51b9619dc</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2018-01-08 17:50:51</sys_updated_on>
+        <type>3</type>
+        <user display_value="JCLFS Track">d8193eefdb870f4474471cb51b96199c</user>
+        <write>false</write>
+    </pa_dashboards_permissions>
+</record_update>

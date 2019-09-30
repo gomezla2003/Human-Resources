@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2019-08-28 21:35:41</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>71021765dba7f7405c77a1ac0b961971</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_sthc_human_resou_human_resource_knowledge_approval_mapping.hr_kb_writer</sys_name>
+        <sys_package display_value="Human Resources" source="x_sthc_human_resou">5166e53e6f310f0061f06ea22e3ee44b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Human Resources">5166e53e6f310f0061f06ea22e3ee44b</sys_scope>
+        <sys_security_acl display_value="x_sthc_human_resou_human_resource_knowledge_approval_mapping">71222589db16b34096b17d8bbf9619c6</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_71021765dba7f7405c77a1ac0b961971</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2019-08-28 21:35:41</sys_updated_on>
+        <sys_user_role display_value="hr_kb_writer" name="hr_kb_writer">2f6ac0223701110015d72e2dae41f16d</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

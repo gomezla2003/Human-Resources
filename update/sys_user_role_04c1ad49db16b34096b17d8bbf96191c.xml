@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <encryption_context/>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_sthc_human_resou.HumanResource KB Approver Map</name>
+        <requires_subscription>0</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>HumanResource KB Approver Map</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2019-06-25 20:49:51</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>04c1ad49db16b34096b17d8bbf96191c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_sthc_human_resou.HumanResource KB Approver Map</sys_name>
+        <sys_package display_value="Human Resources" source="x_sthc_human_resou">5166e53e6f310f0061f06ea22e3ee44b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Human Resources">5166e53e6f310f0061f06ea22e3ee44b</sys_scope>
+        <sys_update_name>sys_user_role_04c1ad49db16b34096b17d8bbf96191c</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2019-06-25 20:49:51</sys_updated_on>
+    </sys_user_role>
+</record_update>

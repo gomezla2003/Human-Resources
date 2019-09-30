@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="7242a589db16b34096b17d8bbf9619f4" sys_domain="global" table="x_sthc_human_resou_human_resource_knowledge_approval_mapping" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>category_name</element>
+            <position>0</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-06-25 20:52:36</sys_created_on>
+            <sys_id>6072ad89db16b34096b17d8bbf96193d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sthc_human_resou_human_resource_knowledge_approval_mapping" sys_domain="global" view="Default view">7242a589db16b34096b17d8bbf9619f4</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-06-25 20:52:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>subject_matter_expert</element>
+            <position>1</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-06-25 20:52:36</sys_created_on>
+            <sys_id>e072ad89db16b34096b17d8bbf96193d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sthc_human_resou_human_resource_knowledge_approval_mapping" sys_domain="global" view="Default view">7242a589db16b34096b17d8bbf9619f4</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-06-25 20:52:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>content_approver</element>
+            <position>2</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-06-25 20:52:36</sys_created_on>
+            <sys_id>6472ad89db16b34096b17d8bbf96193d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sthc_human_resou_human_resource_knowledge_approval_mapping" sys_domain="global" view="Default view">7242a589db16b34096b17d8bbf9619f4</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-06-25 20:52:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_sthc_human_resou_human_resource_knowledge_approval_mapping</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-06-25 20:51:56</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>7242a589db16b34096b17d8bbf9619f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_sthc_human_resou_human_resource_knowledge_approval_mapping</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Human Resources" source="x_sthc_human_resou">5166e53e6f310f0061f06ea22e3ee44b</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Human Resources">5166e53e6f310f0061f06ea22e3ee44b</sys_scope>
+            <sys_update_name>sys_ui_section_7242a589db16b34096b17d8bbf9619f4</sys_update_name>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-06-25 20:51:56</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

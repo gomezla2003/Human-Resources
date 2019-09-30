@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="cxs_table_field_config">
+    <cxs_table_field_config action="INSERT_OR_UPDATE">
+        <cxs_table_config display_value="HR Case (Service Center) [x_sthc_human_resou_hr_case_service_center]">afd7734adb37374040f8fcfa0c9619a0</cxs_table_config>
+        <default_config>true</default_config>
+        <field>short_description</field>
+        <name>Short description [short_description]</name>
+        <order>100</order>
+        <sys_class_name>cxs_table_field_config</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2019-09-11 23:53:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>ddf73f4adb37374040f8fcfa0c96191d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Short description [short_description]</sys_name>
+        <sys_package display_value="Human Resources" source="x_sthc_human_resou">5166e53e6f310f0061f06ea22e3ee44b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Human Resources">5166e53e6f310f0061f06ea22e3ee44b</sys_scope>
+        <sys_update_name>cxs_table_field_config_ddf73f4adb37374040f8fcfa0c96191d</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2019-09-11 23:53:56</sys_updated_on>
+    </cxs_table_field_config>
+</record_update>

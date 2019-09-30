@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="cxs_res_context_config_prop">
+    <cxs_res_context_config_prop action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <choices/>
+        <cxs_res_context_config display_value="knowledge">7793b0296f1a870061f06ea22e3ee433</cxs_res_context_config>
+        <default_value/>
+        <description>A Condition to apply before searching. The condition must be an encoded query.</description>
+        <id>knowledge_sr.conditions</id>
+        <name>Condition</name>
+        <sys_class_name>cxs_res_context_config_prop</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2017-11-07 18:11:32</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>3793b0296f1a870061f06ea22e3ee436</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Condition</sys_name>
+        <sys_package display_value="Human Resources" source="x_sthc_human_resou">5166e53e6f310f0061f06ea22e3ee44b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Human Resources">5166e53e6f310f0061f06ea22e3ee44b</sys_scope>
+        <sys_update_name>cxs_res_context_config_prop_3793b0296f1a870061f06ea22e3ee436</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2019-09-24 16:06:40</sys_updated_on>
+        <type>conditions</type>
+        <value>kb_knowledge_base=35de5d93db813f04808f68461b96193f^ORkb_knowledge_base=b70f4019dbfa0f8074471cb51b96199b</value>
+    </cxs_res_context_config_prop>
+</record_update>

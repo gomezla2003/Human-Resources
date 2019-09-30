@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <misc>0</misc>
+        <order>500</order>
+        <question display_value="Category">1f089bdc6f660300277218d22e3ee400</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2017-11-16 19:17:46</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>9709575c6f660300277218d22e3ee4c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Talent Acquisition</sys_name>
+        <sys_package display_value="Human Resources" source="x_sthc_human_resou">5166e53e6f310f0061f06ea22e3ee44b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Human Resources">5166e53e6f310f0061f06ea22e3ee44b</sys_scope>
+        <sys_update_name>question_choice_9709575c6f660300277218d22e3ee4c0</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2017-11-16 19:17:46</sys_updated_on>
+        <text>Talent Acquisition</text>
+        <value>talent</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=9709575c6f660300277218d22e3ee4c0"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>9709575c6f660300277218d22e3ee4c0</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2017-11-16 19:17:46</sys_created_on>
+        <sys_id>2519dfdc6f660300277218d22e3ee46e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2017-11-16 19:17:46</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>9709575c6f660300277218d22e3ee4c0</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2017-11-16 19:17:46</sys_created_on>
+        <sys_id>e919dfdc6f660300277218d22e3ee46d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2017-11-16 19:17:46</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

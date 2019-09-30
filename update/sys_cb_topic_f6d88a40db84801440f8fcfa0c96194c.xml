@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability>(function execute() {
+    var gr = new GlideRecord('x_sthc_human_resou_hr_case_service_center');
+    return gr.canCreate();
+})()
+</applicability>
+        <connect_queue/>
+        <description>ITSM conversation for creating incidents.</description>
+        <graph>{
+  "goals": {
+    "1382a1d852f44769a78cc05663b2e12c": {
+      "id": "1382a1d852f44769a78cc05663b2e12c",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "Create Incident",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "c22d8894214543288554a1331878a93e": {
+          "id": "c22d8894214543288554a1331878a93e",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "eb9cee4423044f1b95bb6cda682f0c0b": {
+          "id": "eb9cee4423044f1b95bb6cda682f0c0b",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "value": "Thanks for using our support chat! Have a great day!",
+            "mode": "simple"
+          }
+        },
+        "34a70a135f0d4f8ba10772a83b4972d0": {
+          "id": "34a70a135f0d4f8ba10772a83b4972d0",
+          "stepType": "Prompt",
+          "name": "Short Description",
+          "prompt": {
+            "value": "Please enter a short description of your issue.",
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": "",
+          "optional": false,
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "4d2c1dcfdea04900aa19316a14aebc59"
+        },
+        "a9c5b9119d2e4a9185f749f8539291f1": {
+          "id": "a9c5b9119d2e4a9185f749f8539291f1",
+          "stepType": "ScriptOutput",
+          "name": "Contextual Search",
+          "script": "(function execute() {\n    var search_term = vaInputs.short_description;\n    var context = '2821675a5b30130070e4492c11f91a89';\n\n    var contextualSearch = new sn_itsm_va.VAContextualSearchUtil();\n    var response = contextualSearch.search(context, search_term);\n\n    var success = contextualSearch.processSearchResponse(response);\n    if (!success) {\n        vaVars.count = 0;\n        return '';\n    }\n\n    var relevantSearchResults = contextualSearch.processGeneralResults(response, vaVars.limit, 0);\n    vaVars.count = relevantSearchResults.length;\n    if (vaVars.count == 0) {\n        return '';\n    }\n\n    var htmlhead =  gs.getMessage(\"OK. Before creating your incident, here are some KB articles that may help.\") +\n                \"\\r\\n &lt;table style=\\\"width: 100%;\\\"&gt;\\r\\n \" + \n                \"&lt;col width=\\\"33%\\\"&gt;\\r\\n \" +\n                \"&lt;col width=\\\"67%\\\"&gt;\\r\\n\" + \n                \"&lt;tr&gt;\\r\\n\\t&lt;td&gt;&lt;b&gt;\" + gs.getMessage('KB Number') + \"&lt;/b&gt;&lt;/td&gt;\\r\\n  \" + \n                \"\\t&lt;td&gt;&lt;b&gt;\" + gs.getMessage('Short Description') + \"&lt;/b&gt;&lt;/td&gt;\\r\\n&lt;/tr&gt;\";\n    var htmlline =  \"&lt;tr style=\\\"vertical-align:top\\\"&gt;\\r\\n\\t&lt;td&gt;&lt;a target=\\\"_blank\\\" \"+ \n                    \"href=\\\"###LINK###\\\"&gt;\" +\n                    \"###NUMBER###&lt;/a&gt;&lt;/td&gt;\\r\\n\\t&lt;td&gt;###TITLE###&lt;/td&gt;\\r\\n&lt;/tr&gt;\";\n    var htmltail = \"&lt;/table&gt;\";\n\n    var htmlbuilder = \"\" + htmlhead;\n    for (var i = 0; i &lt; vaVars.count; i++) {\n        var sysId = relevantSearchResults[i].id.split(':')[1];\n        htmlbuilder += \n            htmlline.replace(\"###LINK###\",  gs.getProperty('glide.servlet.uri') + '/' +\n                        gs.getProperty('sn_itsm_va.com.snc.itsm.virtualagent.portal_url') +\n                        '?id=kb_article&amp;sys_id=' + sysId)\n                    .replace(\"###NUMBER###\", relevantSearchResults[i].meta.number)\n                    .replace(\"###TITLE###\", relevantSearchResults[i].title);\n        \n    }\n    htmlbuilder += htmltail;\n    \n    return htmlbuilder;\n})()\n",
+          "applicability": "",
+          "output_type": "single_part",
+          "isOk": true
+        },
+        "183718c46b6f4bedaad8b1b71fb5e28b": {
+          "id": "183718c46b6f4bedaad8b1b71fb5e28b",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "9b3c8873e2c04a0bb037f45a89791484": {
+          "id": "9b3c8873e2c04a0bb037f45a89791484",
+          "stepType": "Prompt",
+          "name": "Is Helpful",
+          "prompt": {
+            "value": "(function execute() {\n    if (vaVars.total_results == 1) {\n        return gs.getMessage('Did this KB article resolve your issue?');\n    }\n    return gs.getMessage('Did any of these articles resolve your issue?');\n})()\n",
+            "mode": "script"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": "",
+          "optional": false,
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "9a9b464e0ec1425ea8619697cf4b469f"
+        },
+        "567d71473fb9439ab6e3f18f07524dbd": {
+          "id": "567d71473fb9439ab6e3f18f07524dbd",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "df9335dbb94b47ec9213400d9fcd6a59": {
+          "id": "df9335dbb94b47ec9213400d9fcd6a59",
+          "stepType": "TextOutput",
+          "name": "Acknowledgement",
+          "value": {
+            "value": "Alright, I've opened your case and a HR service rep will be assigned. ",
+            "mode": "simple"
+          },
+          "applicability": "",
+          "isOk": true
+        },
+        "071db397feec4a36b72e9ba81db270e3": {
+          "id": "071db397feec4a36b72e9ba81db270e3",
+          "stepType": "ScriptOutput",
+          "name": "Incident Card",
+          "script": "(function execute() {\n      var incident = new GlideRecordSecure('incident');\n      incident.get(vaInputs.create_incident);\n\n      var title = {\n            url: gs.getProperty('glide.servlet.uri') + '/' +\n                  gs.getProperty('sn_itsm_va.com.snc.itsm.virtualagent.portal_url') + \n                  '?sys_id=' + incident.sys_id + '&amp;id=ticket&amp;table=incident',\n            label: incident.number\n      };\n\n      var fieldList = ['category', 'assignment_group', 'short_description', 'state'];\n      var cardRenderer = new global.VaRecordCardRenderer(true);\n      var fields = cardRenderer.createFields(fieldList, incident);\n      var html = cardRenderer.renderCard(title, fields);\n      return html;\n})();",
+          "applicability": "",
+          "output_type": "single_part",
+          "isOk": true
+        },
+        "4441afeadc05411b96341a6c5238a400": {
+          "id": "4441afeadc05411b96341a6c5238a400",
+          "stepType": "Decision",
+          "name": "Decision",
+          "isOk": true
+        },
+        "0ba1f831cc06485faae3ce73a51a8cba": {
+          "id": "0ba1f831cc06485faae3ce73a51a8cba",
+          "name": "Create Incident",
+          "script": "(function execute() {\n    var incident = new GlideRecord('x_sthc_human_resou_hr_case_service_center');\n    incident.initialize();\n    incident.caller = vaInputs.user;\n    incident.short_description = vaInputs.short_description;\n    incident.urgency = vaInputs.urgency;\n    incident.contact_type = 'virtual_agent';\n    vaInputs.create_incident = incident.insert();\n    return vaInputs.create_incident;\n})();",
+          "stepType": "ScriptAction",
+          "applicability": "",
+          "isOk": true
+        },
+        "03290de6059a4beaaa4b43668bdb6723": {
+          "stepType": "ReferenceChoicePrompt",
+          "name": "Urgency",
+          "prompt": {
+            "value": "(function execute() {\n    if (vaVars.count &gt; 0) {\n        return gs.getMessage('OK, what\\'s the Category of your issue?');\n    }\n    return gs.getMessage('What\\'s the Category of your issue?');\n})()",
+            "mode": "script"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": "",
+          "optional": false,
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "6c9248abe9d840c6b134f0e237fe0569",
+          "id": "03290de6059a4beaaa4b43668bdb6723",
+          "mode": "external",
+          "script": "(function execute() {\n    var choices = new GlideChoiceList();\n    // Getting all the choices for urgency.\n    var choiceList = choices.getChoiceList('x_sthc_human_resou_hr_case_service_center', 'category');\n    \n    var options = [];\n\n    for (var i=0; i &lt; choiceList.getSize(); i++) {\n        options.push({'value': choiceList.getChoice(i).getValue(), 'label': choiceList.getChoice(i).getLabel()});\n    }\n    \n    return options;    \n})()\n",
+          "noRecordsResponseMsg": {
+            "mode": "simple",
+            "value": "No Records Found"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "c10cdb08d43849429d6a226bd99560be",
+          "edgeType": "Edge",
+          "source": "03290de6059a4beaaa4b43668bdb6723",
+          "target": "0ba1f831cc06485faae3ce73a51a8cba",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "61f3491a84794e79882bd4384ef7e083",
+          "edgeType": "Edge",
+          "source": "0ba1f831cc06485faae3ce73a51a8cba",
+          "target": "df9335dbb94b47ec9213400d9fcd6a59",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "fc842a247deb402eba6a5c663fb6a00d",
+          "edgeType": "Branch",
+          "source": "567d71473fb9439ab6e3f18f07524dbd",
+          "target": "eb9cee4423044f1b95bb6cda682f0c0b",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": "(function execute() {\n    return vaInputs.is_helpful.getValue();\n})()\n",
+          "label": "Helpful"
+        },
+        {
+          "id": "5c378e1cc3484e34a9b779e3f62911ea",
+          "edgeType": "Edge",
+          "source": "071db397feec4a36b72e9ba81db270e3",
+          "target": "eb9cee4423044f1b95bb6cda682f0c0b",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "e2482f03f8c7474cabb27c8fe510a414",
+          "edgeType": "Edge",
+          "source": "c22d8894214543288554a1331878a93e",
+          "target": "34a70a135f0d4f8ba10772a83b4972d0",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "664d3828d8de48a5aac2a9aeeaecafe6",
+          "edgeType": "Edge",
+          "source": "a9c5b9119d2e4a9185f749f8539291f1",
+          "target": "183718c46b6f4bedaad8b1b71fb5e28b",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "d93e409187e147c089282e33f4998e98",
+          "edgeType": "Branch",
+          "source": "183718c46b6f4bedaad8b1b71fb5e28b",
+          "target": "9b3c8873e2c04a0bb037f45a89791484",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": "(function execute() {\n    return (parseInt(vaVars.count) != 0);\n})()\n",
+          "label": "Has Results"
+        },
+        {
+          "id": "ff5caaf149e844f6ad3647179a4018ff",
+          "edgeType": "Edge",
+          "source": "9b3c8873e2c04a0bb037f45a89791484",
+          "target": "567d71473fb9439ab6e3f18f07524dbd",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "956f074c7bf64577939c4245d162c628",
+          "edgeType": "Branch",
+          "source": "567d71473fb9439ab6e3f18f07524dbd",
+          "target": "03290de6059a4beaaa4b43668bdb6723",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": "(function execute() {\n    return !vaInputs.is_helpful.getValue();\n})()\n",
+          "label": "Not Helpful"
+        },
+        {
+          "id": "8ef9302080f642138d4a2ee77fed7498",
+          "edgeType": "Edge",
+          "source": "df9335dbb94b47ec9213400d9fcd6a59",
+          "target": "071db397feec4a36b72e9ba81db270e3",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "8e5ced8daef342ac955d78d3eeacb9c8",
+          "edgeType": "Edge",
+          "source": "34a70a135f0d4f8ba10772a83b4972d0",
+          "target": "4441afeadc05411b96341a6c5238a400",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "bd444c47150244bd81f4b911fa694ae7",
+          "edgeType": "Branch",
+          "source": "4441afeadc05411b96341a6c5238a400",
+          "target": "a9c5b9119d2e4a9185f749f8539291f1",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": "(function execute() {\n    return (vaInputs.short_description.getValue().trim() != '');\n})()\n",
+          "label": "Description Is Not Empty"
+        },
+        {
+          "id": "a6f69a23b4e144918cf664d62ad50a5e",
+          "edgeType": "Branch",
+          "source": "4441afeadc05411b96341a6c5238a400",
+          "target": "34a70a135f0d4f8ba10772a83b4972d0",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": "(function execute() {\n    return (vaInputs.short_description.getValue().trim() == '');\n})()\n",
+          "label": "Description Is Empty"
+        },
+        {
+          "id": "85d67eb049874961b02c02849488aa2c",
+          "edgeType": "Branch",
+          "source": "183718c46b6f4bedaad8b1b71fb5e28b",
+          "target": "03290de6059a4beaaa4b43668bdb6723",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": "(function execute() {\n    return (parseInt(vaVars.count) == 0);\n})()\n",
+          "label": "No Results"
+        }
+      ]
+    }
+  },
+  "graph_api_version": "1.0.3",
+  "variables": {
+    "154c037921c546369fcdbfbd99814bd9": {
+      "id": "154c037921c546369fcdbfbd99814bd9",
+      "name": "limit",
+      "label": "limit",
+      "varType": "script",
+      "value": {
+        "value": "5",
+        "mode": "simple"
+      }
+    },
+    "17f60cfd2c9643749d2d45e16da50f3e": {
+      "id": "17f60cfd2c9643749d2d45e16da50f3e",
+      "name": "count",
+      "label": "count",
+      "varType": "script",
+      "value": {
+        "value": "0",
+        "mode": "simple"
+      }
+    },
+    "4d2c1dcfdea04900aa19316a14aebc59": {
+      "id": "4d2c1dcfdea04900aa19316a14aebc59",
+      "name": "short_description",
+      "label": "Short Description",
+      "varType": "string"
+    },
+    "9a9b464e0ec1425ea8619697cf4b469f": {
+      "id": "9a9b464e0ec1425ea8619697cf4b469f",
+      "name": "is_helpful",
+      "label": "Is Helpful",
+      "varType": "boolean"
+    },
+    "d9c89877002c4730ac8f57cf8742e56f": {
+      "id": "d9c89877002c4730ac8f57cf8742e56f",
+      "name": "create_incident",
+      "label": "create_incident",
+      "varType": "reference",
+      "table": "incident",
+      "inactive": false
+    },
+    "6c9248abe9d840c6b134f0e237fe0569": {
+      "id": "6c9248abe9d840c6b134f0e237fe0569",
+      "name": "urgency",
+      "label": "Urgency",
+      "varType": "reference",
+      "table": ""
+    },
+    "2b5ea6b3e16c4ba4858e7da69e8f7491": {
+      "id": "2b5ea6b3e16c4ba4858e7da69e8f7491",
+      "name": "LiveAgent_application",
+      "value": {
+        "mode": "simple",
+        "value": "itsm"
+      },
+      "varType": "script",
+      "label": "LiveAgent_application"
+    }
+  }
+}</graph>
+        <key_phrases>Submit a HR case,create,open,incident,ticket,issue,broken,help,IT</key_phrases>
+        <live_agent>false</live_agent>
+        <name>Submit a HR case</name>
+        <roles/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2019-09-17 20:56:24</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>f6d88a40db84801440f8fcfa0c96194c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Submit a HR case</sys_name>
+        <sys_package display_value="Human Resources" source="x_sthc_human_resou">5166e53e6f310f0061f06ea22e3ee44b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Human Resources">5166e53e6f310f0061f06ea22e3ee44b</sys_scope>
+        <sys_update_name>sys_cb_topic_f6d88a40db84801440f8fcfa0c96194c</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2019-09-17 21:03:27</sys_updated_on>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=f6d88a40db84801440f8fcfa0c96194c"/>
+</record_update>

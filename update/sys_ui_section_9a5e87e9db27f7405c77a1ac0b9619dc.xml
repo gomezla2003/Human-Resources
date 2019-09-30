@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="9a5e87e9db27f7405c77a1ac0b9619dc" sys_domain="global" table="x_sthc_human_resou_hr_case_service_center" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-09-14 03:17:16</sys_created_on>
+            <sys_id>c7a9fe3adbb3778040f8fcfa0c9619ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sthc_human_resou_hr_case_service_center" sys_domain="global" view="Default view">9a5e87e9db27f7405c77a1ac0b9619dc</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-09-14 03:17:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>caller</element>
+            <position>1</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-09-14 03:17:16</sys_created_on>
+            <sys_id>4fa9fe3adbb3778040f8fcfa0c9619ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sthc_human_resou_hr_case_service_center" sys_domain="global" view="Default view">9a5e87e9db27f7405c77a1ac0b9619dc</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-09-14 03:17:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>caller.department</element>
+            <position>2</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-09-14 03:17:16</sys_created_on>
+            <sys_id>cfa9fe3adbb3778040f8fcfa0c9619ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sthc_human_resou_hr_case_service_center" sys_domain="global" view="Default view">9a5e87e9db27f7405c77a1ac0b9619dc</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-09-14 03:17:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>phone</element>
+            <position>3</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-09-14 03:17:16</sys_created_on>
+            <sys_id>43a9327adbb3778040f8fcfa0c961900</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sthc_human_resou_hr_case_service_center" sys_domain="global" view="Default view">9a5e87e9db27f7405c77a1ac0b9619dc</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-09-14 03:17:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>category</element>
+            <position>4</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-09-14 03:17:16</sys_created_on>
+            <sys_id>c3a9327adbb3778040f8fcfa0c961900</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sthc_human_resou_hr_case_service_center" sys_domain="global" view="Default view">9a5e87e9db27f7405c77a1ac0b9619dc</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-09-14 03:17:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-09-14 03:17:16</sys_created_on>
+            <sys_id>47a9327adbb3778040f8fcfa0c961900</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sthc_human_resou_hr_case_service_center" sys_domain="global" view="Default view">9a5e87e9db27f7405c77a1ac0b9619dc</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-09-14 03:17:16</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opened_at</element>
+            <position>6</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-09-14 03:17:16</sys_created_on>
+            <sys_id>c7a9327adbb3778040f8fcfa0c961900</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sthc_human_resou_hr_case_service_center" sys_domain="global" view="Default view">9a5e87e9db27f7405c77a1ac0b9619dc</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-09-14 03:17:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opened_by</element>
+            <position>7</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-09-14 03:17:16</sys_created_on>
+            <sys_id>4ba9327adbb3778040f8fcfa0c961900</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sthc_human_resou_hr_case_service_center" sys_domain="global" view="Default view">9a5e87e9db27f7405c77a1ac0b9619dc</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-09-14 03:17:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>8</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-09-14 03:17:16</sys_created_on>
+            <sys_id>cba9327adbb3778040f8fcfa0c961900</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sthc_human_resou_hr_case_service_center" sys_domain="global" view="Default view">9a5e87e9db27f7405c77a1ac0b9619dc</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-09-14 03:17:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>priority</element>
+            <position>9</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-09-14 03:17:16</sys_created_on>
+            <sys_id>4fa9327adbb3778040f8fcfa0c961900</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sthc_human_resou_hr_case_service_center" sys_domain="global" view="Default view">9a5e87e9db27f7405c77a1ac0b9619dc</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-09-14 03:17:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>10</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-09-14 03:17:16</sys_created_on>
+            <sys_id>cfa9327adbb3778040f8fcfa0c961900</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sthc_human_resou_hr_case_service_center" sys_domain="global" view="Default view">9a5e87e9db27f7405c77a1ac0b9619dc</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-09-14 03:17:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>11</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-09-14 03:17:16</sys_created_on>
+            <sys_id>43a9327adbb3778040f8fcfa0c961901</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sthc_human_resou_hr_case_service_center" sys_domain="global" view="Default view">9a5e87e9db27f7405c77a1ac0b9619dc</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-09-14 03:17:16</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>12</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-09-14 03:17:16</sys_created_on>
+            <sys_id>c3a9327adbb3778040f8fcfa0c961901</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sthc_human_resou_hr_case_service_center" sys_domain="global" view="Default view">9a5e87e9db27f7405c77a1ac0b9619dc</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-09-14 03:17:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>13</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-09-14 03:17:16</sys_created_on>
+            <sys_id>47a9327adbb3778040f8fcfa0c961901</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sthc_human_resou_hr_case_service_center" sys_domain="global" view="Default view">9a5e87e9db27f7405c77a1ac0b9619dc</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-09-14 03:17:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cxs_table_search.xml</element>
+            <position>14</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-09-14 03:17:16</sys_created_on>
+            <sys_id>c7a9327adbb3778040f8fcfa0c961901</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Contextual Search Results">11eb1622eb1121003623666cd206fe56</sys_ui_formatter>
+            <sys_ui_section caption="NULL" display_value="" name="x_sthc_human_resou_hr_case_service_center" sys_domain="global" view="Default view">9a5e87e9db27f7405c77a1ac0b9619dc</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-09-14 03:17:16</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_sthc_human_resou_hr_case_service_center</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-08-28 21:19:29</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>9a5e87e9db27f7405c77a1ac0b9619dc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_sthc_human_resou_hr_case_service_center</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Human Resources" source="x_sthc_human_resou">5166e53e6f310f0061f06ea22e3ee44b</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Human Resources">5166e53e6f310f0061f06ea22e3ee44b</sys_scope>
+            <sys_update_name>sys_ui_section_9a5e87e9db27f7405c77a1ac0b9619dc</sys_update_name>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-08-28 21:19:29</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

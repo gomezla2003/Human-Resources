@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category">
+    <sc_category action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <entitlement_script/>
+        <header_icon/>
+        <homepage_image/>
+        <homepage_renderer display_value="Category Details">6bfb2caa3742300054b6a3549dbe5d2f</homepage_renderer>
+        <icon/>
+        <image/>
+        <location/>
+        <mobile_hide_description>false</mobile_hide_description>
+        <mobile_picture/>
+        <mobile_subcategory_render_type>list</mobile_subcategory_render_type>
+        <module/>
+        <order>0</order>
+        <parent/>
+        <roles/>
+        <sc_catalog display_value="Human Resources HonorHealth">c40d20616f1a870061f06ea22e3ee4dd</sc_catalog>
+        <show_in_cms>false</show_in_cms>
+        <sys_class_name>sc_category</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2017-11-16 20:11:33</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>025563d86fa60300277218d22e3ee4ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Performance &amp; Job Descriptions</sys_name>
+        <sys_package display_value="Human Resources" source="x_sthc_human_resou">5166e53e6f310f0061f06ea22e3ee44b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Human Resources">5166e53e6f310f0061f06ea22e3ee44b</sys_scope>
+        <sys_update_name>sc_category_025563d86fa60300277218d22e3ee4ad</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2017-11-16 20:11:33</sys_updated_on>
+        <title>Performance &amp; Job Descriptions</title>
+    </sc_category>
+</record_update>

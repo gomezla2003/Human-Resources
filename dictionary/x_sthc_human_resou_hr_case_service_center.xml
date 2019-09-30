@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="email_client=true" audit="true" extends="task" label="HR Case (Service Center)" max_length="40" name="x_sthc_human_resou_hr_case_service_center" sizeclass="30" text_index="true" type="collection">
+        <element label="Caller" max_length="32" name="caller" reference="sys_user" type="reference"/>
+        <element choice="1" label="Category" mandatory="true" max_length="40" name="category" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Anniversary - Service Awards" value="23"/>
+                <element inactive_on_update="false" label="Badge &amp; Key Questions" value="1"/>
+                <element inactive_on_update="false" label="Benefits" value="2"/>
+                <element inactive_on_update="false" label="Bus Pass" value="24"/>
+                <element inactive_on_update="false" label="Compensation" value="25"/>
+                <element inactive_on_update="false" label="Employee Development" value="26"/>
+                <element inactive_on_update="false" label="Employee Engagement" value="3"/>
+                <element inactive_on_update="false" label="Employee Health" value="4"/>
+                <element inactive_on_update="false" label="Employee Records" value="5"/>
+                <element inactive_on_update="false" label="Employee Relations" value="6"/>
+                <element inactive_on_update="false" label="Guaranteed Ride Home" value="27"/>
+                <element inactive_on_update="false" label="HR Policies" value="7"/>
+                <element inactive_on_update="false" label="HRIS" value="8"/>
+                <element inactive_on_update="false" label="Leader Tools" value="9"/>
+                <element inactive_on_update="false" label="Leadership Development" value="28"/>
+                <element inactive_on_update="false" label="Leave of Absence" value="10"/>
+                <element inactive_on_update="false" label="My Learning" value="11"/>
+                <element inactive_on_update="false" label="New Employee Orientation" value="12"/>
+                <element inactive_on_update="false" label="Other" value="13"/>
+                <element inactive_on_update="false" label="Outside Education" value="29"/>
+                <element inactive_on_update="false" label="Payroll" value="14"/>
+                <element inactive_on_update="false" label="Performance Management" value="15"/>
+                <element inactive_on_update="false" label="Professional Education" value="16"/>
+                <element inactive_on_update="false" label="Recruitment" value="17"/>
+                <element inactive_on_update="false" label="Share the Ride Program" value="30"/>
+                <element inactive_on_update="false" label="Staff Member Self Service (SMSS)" value="18"/>
+                <element inactive_on_update="false" label="Student Placement" value="31"/>
+                <element inactive_on_update="false" label="Trip Reduction" value="19"/>
+                <element inactive_on_update="false" label="Tuition Assistance" value="20"/>
+                <element inactive_on_update="false" label="Tuition Reimbursement" value="32"/>
+                <element inactive_on_update="false" label="Verification of Employment" value="21"/>
+                <element inactive_on_update="false" label="Workers' Comp" value="22"/>
+            </choice>
+        </element>
+        <element label="Phone" max_length="40" name="phone" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
+    <sp_instance_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>primary</color>
+        <css/>
+        <display_field/>
+        <field_list/>
+        <filter/>
+        <glyph>male</glyph>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>0</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="3">fb43e1716f1ec70061f06ea22e3ee4bf</sp_column>
+        <sp_page/>
+        <sp_widget display_value="HR My Information LG Global">1f6b40796f83cf0061f06ea22e3ee40c</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2017-12-19 19:30:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>38981d03db8bc34474471cb51b9619e8</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>My HR Profile</sys_name>
+        <sys_package display_value="Human Resources" source="x_sthc_human_resou">5166e53e6f310f0061f06ea22e3ee44b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Human Resources">5166e53e6f310f0061f06ea22e3ee44b</sys_scope>
+        <sys_update_name>sp_instance_table_38981d03db8bc34474471cb51b9619e8</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2018-01-08 23:13:36</sys_updated_on>
+        <table/>
+        <title>My HR Profile</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_table>
+</record_update>

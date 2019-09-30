@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_tour_guide">
+    <sys_embedded_tour_guide action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <additional_parameters/>
+        <autolaunch_order>0</autolaunch_order>
+        <context>hr_case</context>
+        <description>HR Case Basic Navigation</description>
+        <has_concl>false</has_concl>
+        <has_intro>false</has_intro>
+        <name>HR form (Basic)</name>
+        <options/>
+        <roles>hr_basic</roles>
+        <sp_page/>
+        <sp_portal/>
+        <status>published</status>
+        <sys_class_name>sys_embedded_tour_guide</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2018-01-08 15:33:19</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>e2f12b99db238f4874471cb51b9619ed</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>HR form (Basic)</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Human Resources" source="x_sthc_human_resou">5166e53e6f310f0061f06ea22e3ee44b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Human Resources">5166e53e6f310f0061f06ea22e3ee44b</sys_scope>
+        <sys_update_name>sys_embedded_tour_guide_e2f12b99db238f4874471cb51b9619ed</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2019-08-09 19:48:58</sys_updated_on>
+        <type>platform</type>
+    </sys_embedded_tour_guide>
+</record_update>

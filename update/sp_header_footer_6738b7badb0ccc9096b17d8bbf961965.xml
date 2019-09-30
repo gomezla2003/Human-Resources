@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_header_footer">
+    <sp_header_footer action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function() {
+  /* widget controller */
+  var c = this;
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>#container{&#13;
+  width: 100%;&#13;
+  background-color:#E5E2E1;&#13;
+  &#13;
+}&#13;
+&#13;
+#wrapper{&#13;
+  display: table;&#13;
+    table-layout: fixed;&#13;
+    margin:auto;&#13;
+  text-align: center;&#13;
+    width:100%;&#13;
+  height:70px;&#13;
+  vertical-align: middle;&#13;
+&#13;
+ &#13;
+}&#13;
+&#13;
+#wrapper div{&#13;
+display: table-cell;&#13;
+  vertical-align: middle;&#13;
+}&#13;
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link/>
+        <name>HR Footer</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_header_footer</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2019-09-26 18:06:20</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6738b7badb0ccc9096b17d8bbf961965</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>HR Footer</sys_name>
+        <sys_package display_value="Human Resources" source="x_sthc_human_resou">5166e53e6f310f0061f06ea22e3ee44b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Human Resources">5166e53e6f310f0061f06ea22e3ee44b</sys_scope>
+        <sys_update_name>sp_header_footer_6738b7badb0ccc9096b17d8bbf961965</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2019-09-26 18:14:50</sys_updated_on>
+        <template><![CDATA[<div id="container">
+<div id="wrapper">
+  <div class="service">
+    <h4><a href="https://shcdev.service-now.com/sp">Employee Benefits</a></h4>
+  <h4>Contact Number: 1-877-768-7182</h4>
+  </div>
+  
+  <div class="security">
+  <h4><a href="https://shcdev.service-now.com/physical_security">Employee Verifications</a></h4>
+  <h4>Contact Number: 1-866-221-2105</h4>
+  </div>
+  
+   <div class="facilities">
+  <h4><a href="https://shcdev.service-now.com/physical_security">HR Shared Services</a></h4>
+  <h4>Contact Number: 480-587-5111</h4>
+  </div>
+  
+   <div class="supply">
+  <h4><a href="https://shcdev.service-now.com/supply_chain">Payroll</a></h4>
+  <h4>Contact Number: 480-587-5300</h4>
+  </div>
+  
+   
+</div>
+</div>
+]]></template>
+    </sp_header_footer>
+</record_update>

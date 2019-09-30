@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="category" table="x_sthc_human_resou_hr_case_service_center" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Badge &amp; Key Questions</label>
+            <language>en</language>
+            <name>x_sthc_human_resou_hr_case_service_center</name>
+            <sequence/>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-09-11 23:45:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>ece57bcadbf3374040f8fcfa0c961920</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:46:27</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Leave of Absence</label>
+            <language>en</language>
+            <name>x_sthc_human_resou_hr_case_service_center</name>
+            <sequence/>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-09-11 23:47:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>8a7637cedbf3374040f8fcfa0c9619d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:47:27</sys_updated_on>
+            <value>10</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>My Learning</label>
+            <language>en</language>
+            <name>x_sthc_human_resou_hr_case_service_center</name>
+            <sequence/>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-09-11 23:47:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>e37637cedbf3374040f8fcfa0c9619b8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:47:33</sys_updated_on>
+            <value>11</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>New Employee Orientation</label>
+            <language>en</language>
+            <name>x_sthc_human_resou_hr_case_service_center</name>
+            <sequence/>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-09-11 23:47:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>1d867f8edbf3374040f8fcfa0c961940</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:47:39</sys_updated_on>
+            <value>12</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_sthc_human_resou_hr_case_service_center</name>
+            <sequence/>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-09-11 23:47:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>a286b3cedbf3374040f8fcfa0c961969</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:47:45</sys_updated_on>
+            <value>13</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Payroll</label>
+            <language>en</language>
+            <name>x_sthc_human_resou_hr_case_service_center</name>
+            <sequence/>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-09-11 23:47:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>3c967b82dbf3374040f8fcfa0c9619b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:47:55</sys_updated_on>
+            <value>14</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Performance Management</label>
+            <language>en</language>
+            <name>x_sthc_human_resou_hr_case_service_center</name>
+            <sequence/>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-09-11 23:48:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>de96778edbf3374040f8fcfa0c9619e3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:48:00</sys_updated_on>
+            <value>15</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Professional Education</label>
+            <language>en</language>
+            <name>x_sthc_human_resou_hr_case_service_center</name>
+            <sequence/>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-09-11 23:48:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>58a6fb8edbf3374040f8fcfa0c96195e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:48:08</sys_updated_on>
+            <value>16</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Recruitment</label>
+            <language>en</language>
+            <name>x_sthc_human_resou_hr_case_service_center</name>
+            <sequence/>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-09-11 23:48:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>39a67302db37374040f8fcfa0c9619e7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:48:15</sys_updated_on>
+            <value>17</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Staff Member Self Service (SMSS)</label>
+            <language>en</language>
+            <name>x_sthc_human_resou_hr_case_service_center</name>
+            <sequence/>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-09-11 23:48:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>1dc63302db37374040f8fcfa0c961945</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:48:46</sys_updated_on>
+            <value>18</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Trip Reduction</label>
+            <language>en</language>
+            <name>x_sthc_human_resou_hr_case_service_center</name>
+            <sequence/>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-09-11 23:48:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>83c67302db37374040f8fcfa0c9619fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:48:52</sys_updated_on>
+            <value>19</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Benefits</label>
+            <language>en</language>
+            <name>x_sthc_human_resou_hr_case_service_center</name>
+            <sequence/>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-09-11 23:46:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>8d467b82dbf3374040f8fcfa0c9619b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:46:33</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Tuition Assistance</label>
+            <language>en</language>
+            <name>x_sthc_human_resou_hr_case_service_center</name>
+            <sequence/>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-09-11 23:48:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>f4d673cedbf3374040f8fcfa0c96190d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:48:59</sys_updated_on>
+            <value>20</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Verification of Employment</label>
+            <language>en</language>
+            <name>x_sthc_human_resou_hr_case_service_center</name>
+            <sequence/>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-09-11 23:49:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>92d63f42db37374040f8fcfa0c96193a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:49:06</sys_updated_on>
+            <value>21</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Workers' Comp</label>
+            <language>en</language>
+            <name>x_sthc_human_resou_hr_case_service_center</name>
+            <sequence/>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-09-11 23:49:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>a3d6bbcedbf3374040f8fcfa0c9619e4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:49:11</sys_updated_on>
+            <value>22</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Anniversary - Service Awards</label>
+            <language>en</language>
+            <name>x_sthc_human_resou_hr_case_service_center</name>
+            <sequence/>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-09-11 23:49:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>69e6bbcedbf3374040f8fcfa0c9619ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:49:20</sys_updated_on>
+            <value>23</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bus Pass</label>
+            <language>en</language>
+            <name>x_sthc_human_resou_hr_case_service_center</name>
+            <sequence/>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-09-11 23:49:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>9ef6f742db37374040f8fcfa0c9619e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:49:38</sys_updated_on>
+            <value>24</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Compensation</label>
+            <language>en</language>
+            <name>x_sthc_human_resou_hr_case_service_center</name>
+            <sequence/>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-09-11 23:49:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>27f63382db37374040f8fcfa0c9619fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:49:44</sys_updated_on>
+            <value>25</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Employee Development</label>
+            <language>en</language>
+            <name>x_sthc_human_resou_hr_case_service_center</name>
+            <sequence/>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-09-11 23:49:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>51077382db37374040f8fcfa0c961906</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:49:51</sys_updated_on>
+            <value>26</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Guaranteed Ride Home</label>
+            <language>en</language>
+            <name>x_sthc_human_resou_hr_case_service_center</name>
+            <sequence/>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-09-11 23:49:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>cb07f382db37374040f8fcfa0c961955</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:49:58</sys_updated_on>
+            <value>27</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Leadership Development</label>
+            <language>en</language>
+            <name>x_sthc_human_resou_hr_case_service_center</name>
+            <sequence/>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-09-11 23:50:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>91177f82db37374040f8fcfa0c96195f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:50:07</sys_updated_on>
+            <value>28</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Outside Education</label>
+            <language>en</language>
+            <name>x_sthc_human_resou_hr_case_service_center</name>
+            <sequence/>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-09-11 23:50:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>f6177bc2dbf3374040f8fcfa0c9619d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:50:14</sys_updated_on>
+            <value>29</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Employee Engagement</label>
+            <language>en</language>
+            <name>x_sthc_human_resou_hr_case_service_center</name>
+            <sequence/>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-09-11 23:46:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>6646778edbf3374040f8fcfa0c9619c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:46:39</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Share the Ride Program</label>
+            <language>en</language>
+            <name>x_sthc_human_resou_hr_case_service_center</name>
+            <sequence/>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-09-11 23:50:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>d2273f82db37374040f8fcfa0c9619f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:50:28</sys_updated_on>
+            <value>30</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Student Placement</label>
+            <language>en</language>
+            <name>x_sthc_human_resou_hr_case_service_center</name>
+            <sequence/>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-09-11 23:50:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>1037ff82db37374040f8fcfa0c961930</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:50:36</sys_updated_on>
+            <value>31</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Tuition Reimbursement</label>
+            <language>en</language>
+            <name>x_sthc_human_resou_hr_case_service_center</name>
+            <sequence/>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-09-11 23:50:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>4637fb02db37374040f8fcfa0c961966</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:50:43</sys_updated_on>
+            <value>32</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Employee Health</label>
+            <language>en</language>
+            <name>x_sthc_human_resou_hr_case_service_center</name>
+            <sequence/>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-09-11 23:46:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>00563702dbf3374040f8fcfa0c961938</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:46:45</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Employee Records</label>
+            <language>en</language>
+            <name>x_sthc_human_resou_hr_case_service_center</name>
+            <sequence/>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-09-11 23:46:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>5e563b8edbf3374040f8fcfa0c96194b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:46:55</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Employee Relations</label>
+            <language>en</language>
+            <name>x_sthc_human_resou_hr_case_service_center</name>
+            <sequence/>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-09-11 23:47:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>b3563b8edbf3374040f8fcfa0c961952</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:47:02</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HR Policies</label>
+            <language>en</language>
+            <name>x_sthc_human_resou_hr_case_service_center</name>
+            <sequence/>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-09-11 23:47:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>5966b382dbf3374040f8fcfa0c96190c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:47:07</sys_updated_on>
+            <value>7</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HRIS</label>
+            <language>en</language>
+            <name>x_sthc_human_resou_hr_case_service_center</name>
+            <sequence/>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-09-11 23:47:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>766633cedbf3374040f8fcfa0c9619d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:47:13</sys_updated_on>
+            <value>8</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Leader Tools</label>
+            <language>en</language>
+            <name>x_sthc_human_resou_hr_case_service_center</name>
+            <sequence/>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-09-11 23:47:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>5476b3cedbf3374040f8fcfa0c961962</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:47:19</sys_updated_on>
+            <value>9</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>category</element>
+            <name>x_sthc_human_resou_hr_case_service_center</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-09-11 23:45:17</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>eaf57bcadbf3374040f8fcfa0c961925</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>category</sys_name>
+            <sys_package display_value="Human Resources" source="x_sthc_human_resou">5166e53e6f310f0061f06ea22e3ee44b</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Human Resources">5166e53e6f310f0061f06ea22e3ee44b</sys_scope>
+            <sys_update_name>sys_choice_x_sthc_human_resou_hr_case_service_center_category</sys_update_name>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:45:17</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

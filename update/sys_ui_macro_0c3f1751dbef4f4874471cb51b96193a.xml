@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_macro">
+    <sys_ui_macro action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <description>show user incidents popup link&#13;
+			activate by:&#13;
+			- set the active field in this macro to true&#13;
+			- adding the attribute to a dictionary field:&#13;
+			ref_contributions=user_show_incidents&#13;
+		</description>
+        <media_type>doctype</media_type>
+        <name>user_show_hr_case2</name>
+        <scoped_name>x_sthc_human_resou_user_show_hr_case</scoped_name>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2018-01-08 15:21:08</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>0c3f1751dbef4f4874471cb51b96193a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>user_show_hr_case2</sys_name>
+        <sys_package display_value="Human Resources" source="x_sthc_human_resou">5166e53e6f310f0061f06ea22e3ee44b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Human Resources">5166e53e6f310f0061f06ea22e3ee44b</sys_scope>
+        <sys_update_name>sys_ui_macro_0c3f1751dbef4f4874471cb51b96193a</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2018-01-08 15:24:27</sys_updated_on>
+        <xml><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+<g:evaluate var="jvar_guid" expression="gs.generateGUID(this);" />
+<j:set var="jvar_n" value="show_hr_case_${jvar_guid}:${ref}"/>
+<g:reference_decoration id="${jvar_n}" field="${ref}"
+  onclick="showRelatedList('${ref}'); "
+  title="${gs.getMessage('Show related HR Cases')}" image="images/icons/tasks.gifx" icon="icon-tree-right"/>
+
+<script>
+// show related list
+function showRelatedList(reference) {
+	try {
+		var displayValue = g_form.getDisplayBox(reference).value;
+		var title = 'Showing records related to: ' + displayValue;
+		var s = reference.split('.');
+		var referenceField = s[s.length - 1];
+		var query = referenceField + '=' + g_form.getValue(reference);
+
+		var gdw = new GlideModal('show_list');
+		gdw.setTitle(title);
+		gdw.setSize(750);
+		gdw.setPreference('table', 'hr_case_list');
+		gdw.setPreference('sysparm_query', query);
+		gdw.setPreference('title', 'A New Title');
+		gdw.render();
+	} catch (e) {
+		jslog('error showing related list');
+		jslog(e);
+	}
+}
+
+</script>
+</j:jelly> ]]></xml>
+    </sys_ui_macro>
+</record_update>

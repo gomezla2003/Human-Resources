@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="email_client=true,live_feed=true,display_image=opened_for" audit="true" extends="sm_order" label="HR Case" max_length="40" name="hr_case" sizeclass="4858" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Phone" max_length="40" name="x_sthc_human_resou_phone" type="string"/>
+    </element>
+</database>

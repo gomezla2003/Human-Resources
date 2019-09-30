@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>HR Case (Service Center)</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>HR Case (Service Center)</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">e4dfda916f10110061f09ea22e3ee457</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2019-08-28 21:19:11</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f54e07e9db27f7405c77a1ac0b961942</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HR Case (Service Center)</sys_name>
+        <sys_package display_value="Human Resources" source="x_sthc_human_resou">5166e53e6f310f0061f06ea22e3ee44b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Human Resources">5166e53e6f310f0061f06ea22e3ee44b</sys_scope>
+        <sys_update_name>sys_wizard_answer_f54e07e9db27f7405c77a1ac0b961942</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2019-08-28 21:19:11</sys_updated_on>
+        <table/>
+        <target_url>x_sthc_human_resou_hr_case_service_center.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

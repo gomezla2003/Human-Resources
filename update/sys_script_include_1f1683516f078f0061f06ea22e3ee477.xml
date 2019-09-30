@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_sthc_human_resou.EVG_SSI_EmailFormatterHR</api_name>
+        <client_callable>false</client_callable>
+        <description>Script Include used for formatting emails into a standard HTML format using some templates / styles</description>
+        <name>EVG_SSI_EmailFormatterHR</name>
+        <script><![CDATA[/**
+ * Set of functions used to drive standard HTML formatted emails using Email Layout records
+ *
+ * @author <a href="mailto:jeff.benedict@evergreensys.com">Jeff Benedict</a>
+ * @version July2014
+ * @constructor
+ * @this {EVG_SSI_EmailFormatterHR}
+ */
+var EVG_SSI_EmailFormatterHR = Class.create();
+EVG_SSI_EmailFormatterHR.prototype = {
+	DEBUG_MODE : false,
+	BORDER_COLOR : gs.getProperty('evg.ssi.email.border.color'),
+	BASE_URL : gs.getProperty('glide.servlet.uri'),
+	
+	/**
+     * Function called on initialization of a new MARS_EmailFormatter object
+	 * 
+	 * @param {String} sLayout The Email Layout record name to leverage for formatting the emails
+     */
+    initialize: function(sLayout) {
+		if ( gs.getProperty('evg.ssi.emailformatter.debugmode') == 'true' ) {
+			this.DEBUG_MODE = true;	
+		}
+		this.layout = null;
+		if ( sLayout != null ) {
+			var fLayout = this._getLayoutRec(sLayout); 
+			this.layout = fLayout.sys_id;
+			this._debugLog("CALLED EVG_SSI_FORMATTER -- Using Layout : "+this.layout);
+		}
+    },
+   
+	/**
+	 * Returns the html for a particular email layout section (such as header) and inputs the provided parameters within the html section template
+	 *
+	 * @param {String} sSectionName Email layout section name to retrieve and parse the html
+	 * @param {Hashmap} aParams List of parameter keys and values to inject into the email section template
+	 * @return {String} The returned html for the email section with the injected parameter values
+     */
+   getSection : function(sSectionName, aParams ) {
+		var sectionRec = new GlideRecord('u_email_section');
+		sectionRec.addQuery('u_name', sSectionName);
+		sectionRec.addQuery('u_layout', this.layout);
+		sectionRec.query();
+		var sReturnHTML = "";
+		if (sectionRec.next()) {
+			sReturnHTML += sectionRec.u_html_content;
+		}
+	  
+		//Process parameters
+		for(var key in aParams) {
+			//gs.addInfoMessage( key + " : " + aParams[key]);
+			sReturnHTML = sReturnHTML.replaceAll("${" + key + "}", aParams[key]);
+		}
+	   
+		sReturnHTML = sReturnHTML.replaceAll("${BORDER_COLOR}", this.BORDER_COLOR);
+	    sReturnHTML = sReturnHTML.replaceAll("${BASE_URL}", this.BASE_URL);
+
+		this._debugLog('Returning section content \''+sSectionName+'\': \n\n'+ sReturnHTML);
+		return sReturnHTML;
+   },  
+   
+	/**
+	 * Returns the email layout record for a layout name
+	 *
+	 * @param {String} sLayoutName Email layout name to retrieve
+	 * @return {GlideRecord} The email layout record matching the email layout name passed into the parameter
+     */
+   _getLayoutRec : function (sLayoutName) {
+	  var layoutRec = new GlideRecord('u_email_layout');
+      layoutRec.addQuery('u_name', sLayoutName);
+      layoutRec.query();
+      if (layoutRec.next()) {
+		return layoutRec;
+	  }
+   },
+   
+	/**
+	 * Returns a content header for an email with a specific style
+	 *
+	 * @param {String} sTitle Title to display within the content header
+	 * @return {String} HTML for the content header
+     */
+   contentHeader : function (sTitle) {
+	 return "<div style=\"font: bold 16px Arial, Helvetica, sans-serif; color:#002d4e; margin: 0 0 5px 0; padding-bottom:0;\">" + sTitle + "</div>"; 
+   },
+   
+    /**
+	 * Returns a parsed set of html based off of a notification record.  This method is leveraged to preview a notification record via a UI action
+	 *
+	 * @param {String} sScriptData The notification record scripted email code (i.e. <mail_script>...</mail_script>)
+	 * @param {String} sTable The source table of the notification record, used to retrive the contextual record to inject into the previewed email
+	 * @param {String} sRecordID The source record ID (i.e. IMXXXX), used to retrive the contextual record to inject into the previewed email
+	 * @return {String} Parsed HTML to display to the user
+     */
+   parseMailScriptCode : function (sScriptData, sTable, sRecordID, newColor, email_action ) {   
+	try {   
+		var scriptRegex = new RegExp("<mail_script>([\\s\\S]*?)<\\/mail_script>","i");
+		if ( scriptRegex.exec(sScriptData)[1] != undefined ) {
+			var current = new GlideRecord(sTable);
+			current.get(sRecordID);
+			var email = new GlideEmailOutbound();
+			var sTempCode = scriptRegex.exec(sScriptData)[1];
+			sTempCode = sTempCode.replace('email.setBody(sHTML);', '');
+			sTempCode = sTempCode.replace('email.setSubject(sSubject);', '');
+			if ( newColor != null && newColor != "" ) {
+				sTempCode = sTempCode.replace(/(var ([^"]+) = new EVG_SSI_EmailFormatterHR([^;]*))/, "$1;$2.BORDER_COLOR=\""+newColor+"\"");	
+			}
+			sTempCode = eval(sTempCode);
+			sTempCode = sTempCode.replace(/&(nbsp|amp|quot|lt|gt);/g, '');
+			if ( sHTML != undefined ) {
+				sTempCode = sHTML;	
+			}
+			this._debugLog('parseMailScriptCode output:\n\n'+sTempCode);
+			return sTempCode;
+		} else {
+			return "";
+		}
+    } catch (err) {
+		return 'Error in parsing email: ' + err;
+    }
+
+   },
+   
+	/**
+	 * Formats an array field by replacing line breaks with the html <br/> tags
+	 *
+	 * @param {String} sDataValue The raw array field value
+	 * @return {String} Returned html value with the line breaks replaced
+     */
+   formatArray : function (sDataValue, sDelimiter ) {
+		if ( sDataValue != undefined && sDataValue != null ) {
+			if ( sDelimiter == null ) { sDelimiter = /\r/g;}
+			sDataValue = sDataValue.replace(sDelimiter, '<br/>'); 
+			return sDataValue;
+		}
+   },
+	
+	_debugLog : function( sMessage ) {
+		if ( this.DEBUG_MODE ) {
+			gs.log(sMessage, this.type);   
+		}
+	},
+	
+	getNameFromLogin : function( sLogin ) {
+		var fUserRec = new GlideRecord('sys_user');
+		fUserRec.addQuery('user_name', sLogin);
+		fUserRec.query();
+		if ( fUserRec.next() ) {
+			return fUserRec.getDisplayValue();	
+		}
+		
+		return sLogin;
+	},
+	
+	unSubscribeToNotification : function( notificationID ) {
+		var fNotificationRec = new GlideRecord('sysevent_email_action');
+		fNotificationRec.get(notificationID);
+		
+		var fSubscriptionRec = new GlideRecord('cmn_notif_message');
+		fSubscriptionRec.addQuery('notification', fNotificationRec.sys_id);
+		fSubscriptionRec.addQuery('user', gs.getUserID());
+		fSubscriptionRec.query();
+		while ( fSubscriptionRec.next() ) {
+			fSubscriptionRec.notification_filter = this._getUnsubscribeFilter();
+			fSubscriptionRec.update();
+		}
+		
+		return fNotificationRec.getDisplayValue();
+	},
+	
+	_getUnsubscribeFilter : function() {
+		var fFilterRec = new GlideRecord('notification_filter');
+		fFilterRec.addQuery('name', 'Unsubscribe');
+		fFilterRec.query();
+		if ( fFilterRec.next() ) {
+			return fFilterRec.sys_id;	
+		}
+		
+		return "";
+	},
+   
+   type: 'EVG_SSI_EmailFormatterHR'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2017-12-14 17:00:11</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>1f1683516f078f0061f06ea22e3ee477</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>EVG_SSI_EmailFormatterHR</sys_name>
+        <sys_package display_value="Human Resources" source="x_sthc_human_resou">5166e53e6f310f0061f06ea22e3ee44b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Human Resources">5166e53e6f310f0061f06ea22e3ee44b</sys_scope>
+        <sys_update_name>sys_script_include_1f1683516f078f0061f06ea22e3ee477</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2017-12-14 17:00:25</sys_updated_on>
+    </sys_script_include>
+</record_update>
