@@ -35,7 +35,7 @@
         <sys_scope display_value="Human Resources">5166e53e6f310f0061f06ea22e3ee44b</sys_scope>
         <sys_update_name>cxs_table_config_afd7734adb37374040f8fcfa0c9619a0</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2020-01-28 03:16:47</sys_updated_on>
+        <sys_updated_on>2019-11-10 16:59:12</sys_updated_on>
         <table>x_sthc_human_resou_hr_case_service_center</table>
         <ui_type>platform</ui_type>
     </cxs_table_config>

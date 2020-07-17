@@ -149,7 +149,7 @@
         <update_guid_history>f06298f59fa48c94cbb32656911da699:858588699,a0121035f3a48c94e5f7aeaf582bdf50:1290027906</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Record deleted 10-17-2019 12:21:12">f4c2dcf9dba48c9474471cb51b96196f</sys_audit_delete>
+        <sys_audit_delete display_value="">f4c2dcf9dba48c9474471cb51b96196f</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>LGOMEZ</sys_created_by>
         <sys_created_on>2019-10-17 19:21:12</sys_created_on>

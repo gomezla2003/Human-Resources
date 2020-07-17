@@ -44,11 +44,14 @@
         <exp_report_attrs>true</exp_report_attrs>
         <field>short_description</field>
         <field_list>number,priority,state,assigned_to,short_description,sys_class_name,sys_created_on,caused_by,parent,contact_type,active,incident_state,assignment_group,u_suggested_assignment_group</field_list>
-        <filter table="kb_knowledge">kb_knowledge_base=35de5d93db813f04808f68461b96193f^ORkb_knowledge_base=b70f4019dbfa0f8074471cb51b96199b^valid_to&lt;=javascript:gs.endOfNextMonth()^ORvalid_to&lt;=javascript:gs.endOfThisMonth()^workflow_state=published<item display_table="kb_knowledge_base" display_value="Human Resources - Call Agent" endquery="false" field="kb_knowledge_base" goto="false" newquery="false" operator="=" or="false" value="35de5d93db813f04808f68461b96193f"/>
+        <filter table="kb_knowledge">kb_knowledge_base=35de5d93db813f04808f68461b96193f^ORkb_knowledge_base=b70f4019dbfa0f8074471cb51b96199b^valid_to&lt;=javascript:gs.endOfNextMonth()^ORvalid_to&lt;=javascript:gs.endOfThisMonth()^workflow_state=published^ORworkflow_state=draft^ORworkflow_state=review^EQ<item display_table="kb_knowledge_base" display_value="Human Resources - Call Agent" endquery="false" field="kb_knowledge_base" goto="false" newquery="false" operator="=" or="false" value="35de5d93db813f04808f68461b96193f"/>
             <item display_table="kb_knowledge_base" display_value="Human Resources - Employee" endquery="false" field="kb_knowledge_base" goto="false" newquery="false" operator="=" or="true" value="b70f4019dbfa0f8074471cb51b96199b"/>
             <item endquery="false" field="valid_to" goto="false" newquery="false" operator="&lt;=" or="false" value="javascript:gs.endOfNextMonth()"/>
             <item endquery="false" field="valid_to" goto="false" newquery="false" operator="&lt;=" or="true" value="javascript:gs.endOfThisMonth()"/>
             <item display_value="Published" endquery="false" field="workflow_state" goto="false" newquery="false" operator="=" or="false" value="published"/>
+            <item display_value="Draft" endquery="false" field="workflow_state" goto="false" newquery="false" operator="=" or="true" value="draft"/>
+            <item display_value="Review" endquery="false" field="workflow_state" goto="false" newquery="false" operator="=" or="true" value="review"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>
         <from/>
         <funnel_neck_percent>30</funnel_neck_percent>
@@ -88,7 +91,7 @@
         <sc_stackby_variable_id/>
         <score_color display_value="Black">65b30218a9fe3dba0120df8611520d97</score_color>
         <series_name_text/>
-        <set_color>null</set_color>
+        <set_color>one_color</set_color>
         <show_chart_border>false</show_chart_border>
         <show_chart_data_label>false</show_chart_data_label>
         <show_chart_title>report</show_chart_title>
@@ -109,15 +112,15 @@
         <sys_created_on>2019-10-02 16:25:49</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>65ca9ef8db500c9074471cb51b9619f2</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>HR KB's About to Expire</sys_name>
         <sys_package display_value="Human Resources" source="x_sthc_human_resou">5166e53e6f310f0061f06ea22e3ee44b</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Human Resources">5166e53e6f310f0061f06ea22e3ee44b</sys_scope>
         <sys_update_name>sys_report_65ca9ef8db500c9074471cb51b9619f2</sys_update_name>
-        <sys_updated_by>SCHINN</sys_updated_by>
-        <sys_updated_on>2020-06-01 17:40:49</sys_updated_on>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2019-11-06 18:08:52</sys_updated_on>
         <table>kb_knowledge</table>
         <title>HR KB's About to Expire</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>

@@ -7,8 +7,7 @@
         <affected_field_on_event/>
         <category display_value="Human Resources" name="Human Resources">b69d02137f232200ee2e108c3ffa913c</category>
         <collection>x_sthc_human_resou_hr_case_service_center</collection>
-        <condition table="x_sthc_human_resou_hr_case_service_center">active=true^sys_class_name=x_sthc_human_resou_hr_case_service_center^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
-            <item display_value="HR Case (Service Center)" endquery="false" field="sys_class_name" goto="false" newquery="false" operator="=" or="false" value="x_sthc_human_resou_hr_case_service_center"/>
+        <condition table="x_sthc_human_resou_hr_case_service_center">active=true^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <content_type>multipart/mixed</content_type>
@@ -71,7 +70,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>d035c8b16f83cf0061f06ea22e3ee4ca</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>HR CASE opened (Customer)</sys_name>
         <sys_overrides/>
         <sys_package display_value="Human Resources" source="x_sthc_human_resou">5166e53e6f310f0061f06ea22e3ee44b</sys_package>
@@ -80,7 +79,7 @@
         <sys_scope display_value="Human Resources">5166e53e6f310f0061f06ea22e3ee44b</sys_scope>
         <sys_update_name>sysevent_email_action_d035c8b16f83cf0061f06ea22e3ee4ca</sys_update_name>
         <sys_updated_by>LGOMEZ</sys_updated_by>
-        <sys_updated_on>2020-07-06 19:32:06</sys_updated_on>
+        <sys_updated_on>2019-11-01 18:25:57</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

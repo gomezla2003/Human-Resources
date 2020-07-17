@@ -22,6 +22,7 @@ $btn-default-bg: #fff;
 $text-muted: #979797;
 </css_variables>
         <default>false</default>
+        <hide_portal_name>false</hide_portal_name>
         <homepage display_value="hr_index">7d3ee0a16f1a870061f06ea22e3ee4ab</homepage>
         <icon/>
         <kb_knowledge_base display_value="Human Resources - Employee">b70f4019dbfa0f8074471cb51b96199b</kb_knowledge_base>
@@ -49,7 +50,7 @@ $text-muted: #979797;
         <sys_scope display_value="Human Resources">5166e53e6f310f0061f06ea22e3ee44b</sys_scope>
         <sys_update_name>sp_portal_30bc20616f1a870061f06ea22e3ee4da</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2020-01-28 03:59:44</sys_updated_on>
+        <sys_updated_on>2019-11-10 17:47:20</sys_updated_on>
         <theme display_value="HR Theme">995557919f210200bf161471367fcf48</theme>
         <title>Human Resources (HonorHealth)</title>
         <ts_index_group display_value="portal_index_group">2c3e7d1513c93300e618bfd63244b0d7</ts_index_group>

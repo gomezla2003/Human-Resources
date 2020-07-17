@@ -29,7 +29,7 @@
         <column/>
         <compute_percent>aggregate</compute_percent>
         <content/>
-        <created_by_user display_value="Shelley Chinn">6071f5626f13e100e59533d9ea3ee479</created_by_user>
+        <created_by_user display_value="Louie Gomez">9dd736c46fd4710068ceda0cbb3ee476</created_by_user>
         <custom_chart_size>false</custom_chart_size>
         <custom_chart_title_position>false</custom_chart_title_position>
         <custom_config>{"transforms":[{"transform":{"transform":"Reference","name":"chart-subjects"}}]}</custom_config>
@@ -42,9 +42,10 @@
         <donut_width_percent>50</donut_width_percent>
         <end_time/>
         <exp_report_attrs>true</exp_report_attrs>
-        <field>category</field>
-        <field_list>number,priority,state,assigned_to,short_description,sys_class_name,sys_created_on,caused_by,parent,contact_type,active,incident_state,assignment_group,u_suggested_assignment_group</field_list>
-        <filter/>
+        <field/>
+        <field_list>number,state,short_description,sys_created_on,variables.d1eb274fdbd4881096b17d8bbf96196b,variables.92fbab4fdbd4881096b17d8bbf961951,variables.030caf4fdbd4881096b17d8bbf9619c3,variables.f28c6fcfdbd4881096b17d8bbf96196d</field_list>
+        <filter table="sc_req_item">cat_item=2eab670fdbd4881096b17d8bbf961975<item display_table="sc_cat_item" display_value="Exception Management" endquery="false" field="cat_item" goto="false" newquery="false" operator="=" or="false" value="2eab670fdbd4881096b17d8bbf961975"/>
+        </filter>
         <from/>
         <funnel_neck_percent>30</funnel_neck_percent>
         <gauge_autoscale>true</gauge_autoscale>
@@ -81,45 +82,45 @@
         <sc_groupby_variable_id/>
         <sc_stackby_item_id/>
         <sc_stackby_variable_id/>
-        <score_color display_value="Red">65b30395a9fe3dba003277a7b660b5db</score_color>
+        <score_color display_value="Black">65b30218a9fe3dba0120df8611520d97</score_color>
         <series_name_text/>
-        <set_color>color_palette</set_color>
+        <set_color>one_color</set_color>
         <show_chart_border>false</show_chart_border>
-        <show_chart_data_label>true</show_chart_data_label>
+        <show_chart_data_label>false</show_chart_data_label>
         <show_chart_title>report</show_chart_title>
-        <show_chart_total>true</show_chart_total>
+        <show_chart_total>false</show_chart_total>
         <show_data_label_position_middle>false</show_data_label_position_middle>
         <show_empty>false</show_empty>
         <show_geographical_label>false</show_geographical_label>
         <show_legend>true</show_legend>
         <show_legend_border>false</show_legend_border>
         <show_marker>false</show_marker>
-        <show_zero>true</show_zero>
+        <show_zero>false</show_zero>
         <source_type>table</source_type>
         <start_time/>
         <style_config/>
         <sumfield/>
         <sys_class_name>sys_report</sys_class_name>
         <sys_created_by>LGOMEZ</sys_created_by>
-        <sys_created_on>2019-10-01 21:40:19</sys_created_on>
+        <sys_created_on>2019-11-06 18:28:32</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>be295668dbd4089074471cb51b96198e</sys_id>
+        <sys_id>d886c7c8dbc984508bd686171b961977</sys_id>
         <sys_mod_count>3</sys_mod_count>
-        <sys_name>HR Case by Category</sys_name>
+        <sys_name>Exception Management</sys_name>
         <sys_package display_value="Human Resources" source="x_sthc_human_resou">5166e53e6f310f0061f06ea22e3ee44b</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Human Resources">5166e53e6f310f0061f06ea22e3ee44b</sys_scope>
-        <sys_update_name>sys_report_be295668dbd4089074471cb51b96198e</sys_update_name>
-        <sys_updated_by>LGOMEZ</sys_updated_by>
-        <sys_updated_on>2019-11-06 18:09:06</sys_updated_on>
-        <table>x_sthc_human_resou_hr_case_service_center</table>
-        <title>HR Case by Category</title>
+        <sys_update_name>sys_report_d886c7c8dbc984508bd686171b961977</sys_update_name>
+        <sys_updated_by>MMCKEOWN</sys_updated_by>
+        <sys_updated_on>2019-11-07 23:03:17</sys_updated_on>
+        <table>sc_req_item</table>
+        <title>Exception Management</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>
         <to/>
         <trend_field/>
-        <type>donut</type>
+        <type>list</type>
         <upper_limit/>
         <use_color_heatmap>false</use_color_heatmap>
         <use_color_palette>false</use_color_palette>

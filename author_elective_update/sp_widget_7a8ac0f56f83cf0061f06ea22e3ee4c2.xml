@@ -260,7 +260,7 @@ data.link = '?id=hrsp_user_profile&amp;sys_id='+ userId;
         <update_guid_history>760b8839a783cf00b9d3ade1ea33c450:704791830,d9ba84395883cf00d4c2de159aa062a0:1975051565,3a8ac0f50183cf00457ff124f745c3c3:-39005328</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Record deleted 12-19-2017 12:29:38">d948d1cbdb4bc34474471cb51b961949</sys_audit_delete>
+        <sys_audit_delete display_value="">d948d1cbdb4bc34474471cb51b961949</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>LGOMEZ</sys_created_by>
         <sys_created_on>2017-12-19 19:29:38</sys_created_on>

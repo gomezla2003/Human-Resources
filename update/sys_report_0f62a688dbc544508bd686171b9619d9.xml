@@ -44,8 +44,7 @@
         <exp_report_attrs>true</exp_report_attrs>
         <field/>
         <field_list>number,priority,state,assigned_to,short_description,sys_class_name,sys_created_on,caused_by,parent,contact_type,active,incident_state,assignment_group,u_suggested_assignment_group</field_list>
-        <filter table="chat_queue_entry">assignment_group=0c1c45b16f87cf0061f06ea22e3ee454<item display_table="sys_user_group" display_value="HR Call Agents" endquery="false" field="assignment_group" goto="false" newquery="false" operator="=" or="false" value="0c1c45b16f87cf0061f06ea22e3ee454"/>
-        </filter>
+        <filter/>
         <from/>
         <funnel_neck_percent>30</funnel_neck_percent>
         <gauge_autoscale>true</gauge_autoscale>
@@ -105,15 +104,15 @@
         <sys_created_on>2019-11-06 15:50:53</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>0f62a688dbc544508bd686171b9619d9</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Chat sessions</sys_name>
         <sys_package display_value="Human Resources" source="x_sthc_human_resou">5166e53e6f310f0061f06ea22e3ee44b</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Human Resources">5166e53e6f310f0061f06ea22e3ee44b</sys_scope>
         <sys_update_name>sys_report_0f62a688dbc544508bd686171b9619d9</sys_update_name>
-        <sys_updated_by>SCHINN</sys_updated_by>
-        <sys_updated_on>2020-03-25 22:52:00</sys_updated_on>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2019-11-06 18:08:36</sys_updated_on>
         <table>chat_queue_entry</table>
         <title>Chat sessions</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>

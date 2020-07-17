@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2020-07-17 20:55:57">
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2020-07-17 20:56:43">
     <sys_portal_page action="INSERT_OR_UPDATE">
         <layout/>
         <order/>
@@ -11,24 +11,24 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>6de16e04dbc544508bd686171b9619d9</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>PA Chat &amp; Survey Results</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>PA Chat</sys_name>
         <sys_overrides/>
         <sys_package display_value="Human Resources" source="x_sthc_human_resou">5166e53e6f310f0061f06ea22e3ee44b</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Human Resources">5166e53e6f310f0061f06ea22e3ee44b</sys_scope>
         <sys_update_name>sys_portal_page_6de16e04dbc544508bd686171b9619d9</sys_update_name>
-        <sys_updated_by>SCHINN</sys_updated_by>
-        <sys_updated_on>2020-01-13 18:26:33</sys_updated_on>
-        <title>PA Chat &amp; Survey Results</title>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2019-11-06 15:48:48</sys_updated_on>
+        <title>PA Chat</title>
         <user/>
         <view>pa_new_tab_2_62</view>
         <related_items_node>
             <sys_portal action="INSERT_OR_UPDATE">
                 <dropzone/>
                 <offset/>
-                <page display_value="PA Chat &amp; Survey Results">6de16e04dbc544508bd686171b9619d9</page>
+                <page display_value="PA Chat">6de16e04dbc544508bd686171b9619d9</page>
                 <summary>Chat sessions</summary>
                 <sys_created_by>LGOMEZ</sys_created_by>
                 <sys_created_on>2019-11-06 15:54:43</sys_created_on>
@@ -196,7 +196,7 @@
             <sys_portal action="INSERT_OR_UPDATE">
                 <dropzone/>
                 <offset/>
-                <page display_value="PA Chat &amp; Survey Results">6de16e04dbc544508bd686171b9619d9</page>
+                <page display_value="PA Chat">6de16e04dbc544508bd686171b9619d9</page>
                 <summary>Chat sessions</summary>
                 <sys_created_by>LGOMEZ</sys_created_by>
                 <sys_created_on>2019-11-06 15:54:37</sys_created_on>
@@ -386,7 +386,7 @@
             <sys_portal action="INSERT_OR_UPDATE">
                 <dropzone/>
                 <offset/>
-                <page display_value="PA Chat &amp; Survey Results">6de16e04dbc544508bd686171b9619d9</page>
+                <page display_value="PA Chat">6de16e04dbc544508bd686171b9619d9</page>
                 <summary>Chats</summary>
                 <sys_created_by>SCHINN</sys_created_by>
                 <sys_created_on>2019-11-06 17:12:27</sys_created_on>
@@ -554,109 +554,7 @@
             <sys_portal action="INSERT_OR_UPDATE">
                 <dropzone/>
                 <offset/>
-                <page display_value="PA Chat &amp; Survey Results">6de16e04dbc544508bd686171b9619d9</page>
-                <summary>Survey String Value = YES</summary>
-                <sys_created_by>SCHINN</sys_created_by>
-                <sys_created_on>2020-01-13 18:27:09</sys_created_on>
-                <sys_id>8f421182db1e801874471cb51b9619b0</sys_id>
-                <sys_mod_count>1</sys_mod_count>
-                <sys_updated_by>SCHINN</sys_updated_by>
-                <sys_updated_on>2020-01-13 18:27:09</sys_updated_on>
-                <related_items_node>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>report_type</name>
-                        <portal_section display_value="Created 01-13-2020 11:27:09">8f421182db1e801874471cb51b9619b0</portal_section>
-                        <sys_created_by>SCHINN</sys_created_by>
-                        <sys_created_on>2020-01-13 18:27:09</sys_created_on>
-                        <sys_id>0b421d82db1e801874471cb51b961936</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>SCHINN</sys_updated_by>
-                        <sys_updated_on>2020-01-13 18:27:09</sys_updated_on>
-                        <value>single_score</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>renderer</name>
-                        <portal_section display_value="Created 01-13-2020 11:27:09">8f421182db1e801874471cb51b9619b0</portal_section>
-                        <sys_created_by>SCHINN</sys_created_by>
-                        <sys_created_on>2020-01-13 18:27:09</sys_created_on>
-                        <sys_id>0f421d82db1e801874471cb51b961935</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>SCHINN</sys_updated_by>
-                        <sys_updated_on>2020-01-13 18:27:09</sys_updated_on>
-                        <value>com.glide.ui.portal.RenderReport</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>can_subscribe</name>
-                        <portal_section display_value="Created 01-13-2020 11:27:09">8f421182db1e801874471cb51b9619b0</portal_section>
-                        <sys_created_by>SCHINN</sys_created_by>
-                        <sys_created_on>2020-01-13 18:27:09</sys_created_on>
-                        <sys_id>47421d82db1e801874471cb51b961936</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>SCHINN</sys_updated_by>
-                        <sys_updated_on>2020-01-13 18:27:09</sys_updated_on>
-                        <value>true</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>can_real_time</name>
-                        <portal_section display_value="Created 01-13-2020 11:27:09">8f421182db1e801874471cb51b9619b0</portal_section>
-                        <sys_created_by>SCHINN</sys_created_by>
-                        <sys_created_on>2020-01-13 18:27:09</sys_created_on>
-                        <sys_id>83421d82db1e801874471cb51b961936</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>SCHINN</sys_updated_by>
-                        <sys_updated_on>2020-01-13 18:27:09</sys_updated_on>
-                        <value>true</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>sys_id</name>
-                        <portal_section display_value="Created 01-13-2020 11:27:09">8f421182db1e801874471cb51b9619b0</portal_section>
-                        <sys_created_by>SCHINN</sys_created_by>
-                        <sys_created_on>2020-01-13 18:27:09</sys_created_on>
-                        <sys_id>c7421182db1e801874471cb51b9619b1</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>SCHINN</sys_updated_by>
-                        <sys_updated_on>2020-01-13 18:27:09</sys_updated_on>
-                        <value>5d0c858adb1a801874471cb51b961968</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>is_using_database_view</name>
-                        <portal_section display_value="Created 01-13-2020 11:27:09">8f421182db1e801874471cb51b9619b0</portal_section>
-                        <sys_created_by>SCHINN</sys_created_by>
-                        <sys_created_on>2020-01-13 18:27:09</sys_created_on>
-                        <sys_id>c7421d82db1e801874471cb51b961937</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>SCHINN</sys_updated_by>
-                        <sys_updated_on>2020-01-13 18:27:09</sys_updated_on>
-                        <value>false</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>title</name>
-                        <portal_section display_value="Created 01-13-2020 11:27:09">8f421182db1e801874471cb51b9619b0</portal_section>
-                        <sys_created_by>SCHINN</sys_created_by>
-                        <sys_created_on>2020-01-13 18:27:09</sys_created_on>
-                        <sys_id>cb421d82db1e801874471cb51b961936</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>SCHINN</sys_updated_by>
-                        <sys_updated_on>2020-01-13 18:27:09</sys_updated_on>
-                        <value>Survey String Value = YES</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>help_text_window</name>
-                        <portal_section display_value="Created 01-13-2020 11:27:09">8f421182db1e801874471cb51b9619b0</portal_section>
-                        <sys_created_by>SCHINN</sys_created_by>
-                        <sys_created_on>2020-01-13 18:27:09</sys_created_on>
-                        <sys_id>cf421d82db1e801874471cb51b961935</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>SCHINN</sys_updated_by>
-                        <sys_updated_on>2020-01-13 18:27:09</sys_updated_on>
-                        <value>report_widget_description</value>
-                    </sys_portal_preferences>
-                </related_items_node>
-            </sys_portal>
-            <sys_portal action="INSERT_OR_UPDATE">
-                <dropzone/>
-                <offset/>
-                <page display_value="PA Chat &amp; Survey Results">6de16e04dbc544508bd686171b9619d9</page>
+                <page display_value="PA Chat">6de16e04dbc544508bd686171b9619d9</page>
                 <summary>Chats Not Escalated</summary>
                 <sys_created_by>LGOMEZ</sys_created_by>
                 <sys_created_on>2019-11-06 16:01:48</sys_created_on>
@@ -846,197 +744,7 @@
             <sys_portal action="INSERT_OR_UPDATE">
                 <dropzone/>
                 <offset/>
-                <page display_value="PA Chat &amp; Survey Results">6de16e04dbc544508bd686171b9619d9</page>
-                <summary>Survey String Value = No</summary>
-                <sys_created_by>SCHINN</sys_created_by>
-                <sys_created_on>2020-01-13 18:28:06</sys_created_on>
-                <sys_id>cd821106db1e801874471cb51b9619d2</sys_id>
-                <sys_mod_count>1</sys_mod_count>
-                <sys_updated_by>SCHINN</sys_updated_by>
-                <sys_updated_on>2020-01-13 18:28:06</sys_updated_on>
-                <related_items_node>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>title</name>
-                        <portal_section display_value="Created 01-13-2020 11:28:06">cd821106db1e801874471cb51b9619d2</portal_section>
-                        <sys_created_by>SCHINN</sys_created_by>
-                        <sys_created_on>2020-01-13 18:28:06</sys_created_on>
-                        <sys_id>01821106db1e801874471cb51b9619d5</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>SCHINN</sys_updated_by>
-                        <sys_updated_on>2020-01-13 18:28:06</sys_updated_on>
-                        <value>Survey String Value = No</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>help_text_window</name>
-                        <portal_section display_value="Created 01-13-2020 11:28:06">cd821106db1e801874471cb51b9619d2</portal_section>
-                        <sys_created_by>SCHINN</sys_created_by>
-                        <sys_created_on>2020-01-13 18:28:06</sys_created_on>
-                        <sys_id>05821106db1e801874471cb51b9619d4</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>SCHINN</sys_updated_by>
-                        <sys_updated_on>2020-01-13 18:28:06</sys_updated_on>
-                        <value>report_widget_description</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>is_using_database_view</name>
-                        <portal_section display_value="Created 01-13-2020 11:28:06">cd821106db1e801874471cb51b9619d2</portal_section>
-                        <sys_created_by>SCHINN</sys_created_by>
-                        <sys_created_on>2020-01-13 18:28:06</sys_created_on>
-                        <sys_id>0d821106db1e801874471cb51b9619d5</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>SCHINN</sys_updated_by>
-                        <sys_updated_on>2020-01-13 18:28:06</sys_updated_on>
-                        <value>false</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>show_title</name>
-                        <portal_section display_value="Created 01-13-2020 11:28:06">cd821106db1e801874471cb51b9619d2</portal_section>
-                        <sys_created_by>SCHINN</sys_created_by>
-                        <sys_created_on>2020-04-16 20:32:20</sys_created_on>
-                        <sys_id>29643950db5c9c14b75792ccd3961956</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>SCHINN</sys_updated_by>
-                        <sys_updated_on>2020-04-16 20:32:20</sys_updated_on>
-                        <value>true</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>renderer</name>
-                        <portal_section display_value="Created 01-13-2020 11:28:06">cd821106db1e801874471cb51b9619d2</portal_section>
-                        <sys_created_by>SCHINN</sys_created_by>
-                        <sys_created_on>2020-01-13 18:28:06</sys_created_on>
-                        <sys_id>41821106db1e801874471cb51b9619d4</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>SCHINN</sys_updated_by>
-                        <sys_updated_on>2020-01-13 18:28:06</sys_updated_on>
-                        <value>com.glide.ui.portal.RenderReport</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>report_type</name>
-                        <portal_section display_value="Created 01-13-2020 11:28:06">cd821106db1e801874471cb51b9619d2</portal_section>
-                        <sys_created_by>SCHINN</sys_created_by>
-                        <sys_created_on>2020-01-13 18:28:06</sys_created_on>
-                        <sys_id>4d821106db1e801874471cb51b9619d4</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>SCHINN</sys_updated_by>
-                        <sys_updated_on>2020-01-13 18:28:06</sys_updated_on>
-                        <value>single_score</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>publisher_widget</name>
-                        <portal_section display_value="Created 01-13-2020 11:28:06">cd821106db1e801874471cb51b9619d2</portal_section>
-                        <sys_created_by>SCHINN</sys_created_by>
-                        <sys_created_on>2020-04-16 20:32:20</sys_created_on>
-                        <sys_id>61643950db5c9c14b75792ccd3961958</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>SCHINN</sys_updated_by>
-                        <sys_updated_on>2020-04-16 20:32:20</sys_updated_on>
-                        <value>false</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>show_header</name>
-                        <portal_section display_value="Created 01-13-2020 11:28:06">cd821106db1e801874471cb51b9619d2</portal_section>
-                        <sys_created_by>SCHINN</sys_created_by>
-                        <sys_created_on>2020-04-16 20:32:20</sys_created_on>
-                        <sys_id>65643950db5c9c14b75792ccd3961957</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>SCHINN</sys_updated_by>
-                        <sys_updated_on>2020-04-16 20:32:20</sys_updated_on>
-                        <value>true</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>subscriber_widget</name>
-                        <portal_section display_value="Created 01-13-2020 11:28:06">cd821106db1e801874471cb51b9619d2</portal_section>
-                        <sys_created_by>SCHINN</sys_created_by>
-                        <sys_created_on>2020-04-16 20:32:20</sys_created_on>
-                        <sys_id>65643950db5c9c14b75792ccd3961958</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>SCHINN</sys_updated_by>
-                        <sys_updated_on>2020-04-16 20:32:20</sys_updated_on>
-                        <value>false</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>title_align</name>
-                        <portal_section display_value="Created 01-13-2020 11:28:06">cd821106db1e801874471cb51b9619d2</portal_section>
-                        <sys_created_by>SCHINN</sys_created_by>
-                        <sys_created_on>2020-04-16 20:32:20</sys_created_on>
-                        <sys_id>69643950db5c9c14b75792ccd3961957</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>SCHINN</sys_updated_by>
-                        <sys_updated_on>2020-04-16 20:32:20</sys_updated_on>
-                        <value>left</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>filter_indicator</name>
-                        <portal_section display_value="Created 01-13-2020 11:28:06">cd821106db1e801874471cb51b9619d2</portal_section>
-                        <sys_created_by>SCHINN</sys_created_by>
-                        <sys_created_on>2020-04-16 20:32:20</sys_created_on>
-                        <sys_id>69643950db5c9c14b75792ccd3961958</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>SCHINN</sys_updated_by>
-                        <sys_updated_on>2020-04-16 20:32:20</sys_updated_on>
-                        <value>false</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>show_border</name>
-                        <portal_section display_value="Created 01-13-2020 11:28:06">cd821106db1e801874471cb51b9619d2</portal_section>
-                        <sys_created_by>SCHINN</sys_created_by>
-                        <sys_created_on>2020-04-16 20:32:20</sys_created_on>
-                        <sys_id>6d643950db5c9c14b75792ccd3961957</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>SCHINN</sys_updated_by>
-                        <sys_updated_on>2020-04-16 20:32:20</sys_updated_on>
-                        <value>true</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>real_time</name>
-                        <portal_section display_value="Created 01-13-2020 11:28:06">cd821106db1e801874471cb51b9619d2</portal_section>
-                        <sys_created_by>SCHINN</sys_created_by>
-                        <sys_created_on>2020-04-16 20:32:20</sys_created_on>
-                        <sys_id>6d643950db5c9c14b75792ccd3961958</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>SCHINN</sys_updated_by>
-                        <sys_updated_on>2020-04-16 20:32:20</sys_updated_on>
-                        <value>false</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>can_subscribe</name>
-                        <portal_section display_value="Created 01-13-2020 11:28:06">cd821106db1e801874471cb51b9619d2</portal_section>
-                        <sys_created_by>SCHINN</sys_created_by>
-                        <sys_created_on>2020-01-13 18:28:06</sys_created_on>
-                        <sys_id>89821106db1e801874471cb51b9619d4</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>SCHINN</sys_updated_by>
-                        <sys_updated_on>2020-01-13 18:28:06</sys_updated_on>
-                        <value>true</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>sys_id</name>
-                        <portal_section display_value="Created 01-13-2020 11:28:06">cd821106db1e801874471cb51b9619d2</portal_section>
-                        <sys_created_by>SCHINN</sys_created_by>
-                        <sys_created_on>2020-01-13 18:28:06</sys_created_on>
-                        <sys_id>c5821106db1e801874471cb51b9619d3</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>SCHINN</sys_updated_by>
-                        <sys_updated_on>2020-01-13 18:28:06</sys_updated_on>
-                        <value>db6b0546db1a801874471cb51b9619cf</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>can_real_time</name>
-                        <portal_section display_value="Created 01-13-2020 11:28:06">cd821106db1e801874471cb51b9619d2</portal_section>
-                        <sys_created_by>SCHINN</sys_created_by>
-                        <sys_created_on>2020-01-13 18:28:06</sys_created_on>
-                        <sys_id>c5821106db1e801874471cb51b9619d4</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>SCHINN</sys_updated_by>
-                        <sys_updated_on>2020-01-13 18:28:06</sys_updated_on>
-                        <value>true</value>
-                    </sys_portal_preferences>
-                </related_items_node>
-            </sys_portal>
-            <sys_portal action="INSERT_OR_UPDATE">
-                <dropzone/>
-                <offset/>
-                <page display_value="PA Chat &amp; Survey Results">6de16e04dbc544508bd686171b9619d9</page>
+                <page display_value="PA Chat">6de16e04dbc544508bd686171b9619d9</page>
                 <summary>Date</summary>
                 <sys_created_by>LGOMEZ</sys_created_by>
                 <sys_created_on>2019-11-06 15:55:21</sys_created_on>
@@ -1204,7 +912,7 @@
             <sys_portal action="INSERT_OR_UPDATE">
                 <dropzone/>
                 <offset/>
-                <page display_value="PA Chat &amp; Survey Results">6de16e04dbc544508bd686171b9619d9</page>
+                <page display_value="PA Chat">6de16e04dbc544508bd686171b9619d9</page>
                 <summary>Chat sessions (Not Accepted)</summary>
                 <sys_created_by>LGOMEZ</sys_created_by>
                 <sys_created_on>2019-11-06 15:54:40</sys_created_on>
@@ -1329,9 +1037,9 @@
                         <sys_created_by>LGOMEZ</sys_created_by>
                         <sys_created_on>2019-11-06 15:55:32</sys_created_on>
                         <sys_id>cb73ee80db0944508bd686171b9619bd</sys_id>
-                        <sys_mod_count>2</sys_mod_count>
-                        <sys_updated_by>SCHINN</sys_updated_by>
-                        <sys_updated_on>2020-03-26 22:41:08</sys_updated_on>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2019-11-06 15:55:32</sys_updated_on>
                         <value>false</value>
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">

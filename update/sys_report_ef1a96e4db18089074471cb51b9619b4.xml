@@ -44,8 +44,7 @@
         <exp_report_attrs>true</exp_report_attrs>
         <field>contact_type</field>
         <field_list>number,priority,state,assigned_to,short_description,sys_class_name,sys_created_on,caused_by,parent,contact_type,active,incident_state,assignment_group,u_suggested_assignment_group</field_list>
-        <filter table="x_sthc_human_resou_hr_case_service_center">category!=64<item display_value="Testing" endquery="false" field="category" goto="false" newquery="false" operator="!=" or="false" value="64"/>
-        </filter>
+        <filter/>
         <from/>
         <funnel_neck_percent>30</funnel_neck_percent>
         <gauge_autoscale>true</gauge_autoscale>
@@ -70,7 +69,7 @@
         <map display_value="World">93b8a3a2d7101200bd4a4ebfae61033a</map>
         <map_source/>
         <orderby_list/>
-        <other_threshold>-1</other_threshold>
+        <other_threshold>-2</other_threshold>
         <others>true</others>
         <page_hdrftr/>
         <pivot_expanded>true</pivot_expanded>
@@ -105,15 +104,15 @@
         <sys_created_on>2019-10-01 21:44:27</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>ef1a96e4db18089074471cb51b9619b4</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>HR Case By Contact Type</sys_name>
         <sys_package display_value="Human Resources" source="x_sthc_human_resou">5166e53e6f310f0061f06ea22e3ee44b</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Human Resources">5166e53e6f310f0061f06ea22e3ee44b</sys_scope>
         <sys_update_name>sys_report_ef1a96e4db18089074471cb51b9619b4</sys_update_name>
-        <sys_updated_by>SCHINN</sys_updated_by>
-        <sys_updated_on>2020-07-13 21:06:11</sys_updated_on>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2019-11-06 18:09:17</sys_updated_on>
         <table>x_sthc_human_resou_hr_case_service_center</table>
         <title>HR Case By Contact Type</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
