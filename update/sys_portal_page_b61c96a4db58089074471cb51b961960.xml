@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2020-07-17 20:00:33">
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2020-07-17 20:55:58">
     <sys_portal_page action="INSERT_OR_UPDATE">
         <layout/>
         <order/>
@@ -25,6 +25,185 @@
         <user/>
         <view>pa_new_tab_429</view>
         <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Case &amp; Knowledge">b61c96a4db58089074471cb51b961960</page>
+                <summary>HR Cases COVID Screening by Agent</summary>
+                <sys_created_by>SCHINN</sys_created_by>
+                <sys_created_on>2020-07-17 20:23:58</sys_created_on>
+                <sys_id>00c4a7b9db021410c91b5716f4961994</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>SCHINN</sys_updated_by>
+                <sys_updated_on>2020-07-17 20:23:58</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 07-17-2020 13:23:58">00c4a7b9db021410c91b5716f4961994</portal_section>
+                        <sys_created_by>SCHINN</sys_created_by>
+                        <sys_created_on>2020-07-17 20:23:58</sys_created_on>
+                        <sys_id>0cc4a7b9db021410c91b5716f4961995</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>SCHINN</sys_updated_by>
+                        <sys_updated_on>2020-07-17 20:23:58</sys_updated_on>
+                        <value>pivot</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 07-17-2020 13:23:58">00c4a7b9db021410c91b5716f4961994</portal_section>
+                        <sys_created_by>SCHINN</sys_created_by>
+                        <sys_created_on>2020-07-17 20:32:14</sys_created_on>
+                        <sys_id>30a62f311b0650549e6b85d7cc4bcbf2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>SCHINN</sys_updated_by>
+                        <sys_updated_on>2020-07-17 20:32:14</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_header</name>
+                        <portal_section display_value="Created 07-17-2020 13:23:58">00c4a7b9db021410c91b5716f4961994</portal_section>
+                        <sys_created_by>SCHINN</sys_created_by>
+                        <sys_created_on>2020-07-17 20:32:14</sys_created_on>
+                        <sys_id>34a62f311b0650549e6b85d7cc4bcbf1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>SCHINN</sys_updated_by>
+                        <sys_updated_on>2020-07-17 20:32:14</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 07-17-2020 13:23:58">00c4a7b9db021410c91b5716f4961994</portal_section>
+                        <sys_created_by>SCHINN</sys_created_by>
+                        <sys_created_on>2020-07-17 20:32:14</sys_created_on>
+                        <sys_id>34a62f311b0650549e6b85d7cc4bcbf2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>SCHINN</sys_updated_by>
+                        <sys_updated_on>2020-07-17 20:32:14</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 07-17-2020 13:23:58">00c4a7b9db021410c91b5716f4961994</portal_section>
+                        <sys_created_by>SCHINN</sys_created_by>
+                        <sys_created_on>2020-07-17 20:32:14</sys_created_on>
+                        <sys_id>38a62f311b0650549e6b85d7cc4bcbf1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>SCHINN</sys_updated_by>
+                        <sys_updated_on>2020-07-17 20:32:14</sys_updated_on>
+                        <value>left</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 07-17-2020 13:23:58">00c4a7b9db021410c91b5716f4961994</portal_section>
+                        <sys_created_by>SCHINN</sys_created_by>
+                        <sys_created_on>2020-07-17 20:32:14</sys_created_on>
+                        <sys_id>38a62f311b0650549e6b85d7cc4bcbf2</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>SCHINN</sys_updated_by>
+                        <sys_updated_on>2020-07-17 20:32:27</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 07-17-2020 13:23:58">00c4a7b9db021410c91b5716f4961994</portal_section>
+                        <sys_created_by>SCHINN</sys_created_by>
+                        <sys_created_on>2020-07-17 20:32:14</sys_created_on>
+                        <sys_id>3ca62f311b0650549e6b85d7cc4bcbf1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>SCHINN</sys_updated_by>
+                        <sys_updated_on>2020-07-17 20:32:14</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 07-17-2020 13:23:58">00c4a7b9db021410c91b5716f4961994</portal_section>
+                        <sys_created_by>SCHINN</sys_created_by>
+                        <sys_created_on>2020-07-17 20:32:14</sys_created_on>
+                        <sys_id>3ca62f311b0650549e6b85d7cc4bcbf2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>SCHINN</sys_updated_by>
+                        <sys_updated_on>2020-07-17 20:32:14</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 07-17-2020 13:23:58">00c4a7b9db021410c91b5716f4961994</portal_section>
+                        <sys_created_by>SCHINN</sys_created_by>
+                        <sys_created_on>2020-07-17 20:23:58</sys_created_on>
+                        <sys_id>48c4a7b9db021410c91b5716f4961994</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>SCHINN</sys_updated_by>
+                        <sys_updated_on>2020-07-17 20:23:58</sys_updated_on>
+                        <value>e822e771db021410c91b5716f4961967</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 07-17-2020 13:23:58">00c4a7b9db021410c91b5716f4961994</portal_section>
+                        <sys_created_by>SCHINN</sys_created_by>
+                        <sys_created_on>2020-07-17 20:23:58</sys_created_on>
+                        <sys_id>48c4a7b9db021410c91b5716f4961995</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>SCHINN</sys_updated_by>
+                        <sys_updated_on>2020-07-17 20:23:58</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>header_color</name>
+                        <portal_section display_value="Created 07-17-2020 13:23:58">00c4a7b9db021410c91b5716f4961994</portal_section>
+                        <sys_created_by>SCHINN</sys_created_by>
+                        <sys_created_on>2020-07-17 20:33:38</sys_created_on>
+                        <sys_id>51f627b51b0650549e6b85d7cc4bcbdd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>SCHINN</sys_updated_by>
+                        <sys_updated_on>2020-07-17 20:33:38</sys_updated_on>
+                        <value>#16ef51</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 07-17-2020 13:23:58">00c4a7b9db021410c91b5716f4961994</portal_section>
+                        <sys_created_by>SCHINN</sys_created_by>
+                        <sys_created_on>2020-07-17 20:23:58</sys_created_on>
+                        <sys_id>84c4a7b9db021410c91b5716f4961995</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>SCHINN</sys_updated_by>
+                        <sys_updated_on>2020-07-17 20:23:58</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 07-17-2020 13:23:58">00c4a7b9db021410c91b5716f4961994</portal_section>
+                        <sys_created_by>SCHINN</sys_created_by>
+                        <sys_created_on>2020-07-17 20:23:58</sys_created_on>
+                        <sys_id>c0c4a7b9db021410c91b5716f4961995</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>SCHINN</sys_updated_by>
+                        <sys_updated_on>2020-07-17 20:23:58</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 07-17-2020 13:23:58">00c4a7b9db021410c91b5716f4961994</portal_section>
+                        <sys_created_by>SCHINN</sys_created_by>
+                        <sys_created_on>2020-07-17 20:23:58</sys_created_on>
+                        <sys_id>ccc4a7b9db021410c91b5716f4961995</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>SCHINN</sys_updated_by>
+                        <sys_updated_on>2020-07-17 20:23:58</sys_updated_on>
+                        <value>HR Cases COVID Screening by Agent</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 07-17-2020 13:23:58">00c4a7b9db021410c91b5716f4961994</portal_section>
+                        <sys_created_by>SCHINN</sys_created_by>
+                        <sys_created_on>2020-07-17 20:32:14</sys_created_on>
+                        <sys_id>f4a62f311b0650549e6b85d7cc4bcbf0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>SCHINN</sys_updated_by>
+                        <sys_updated_on>2020-07-17 20:32:14</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
             <sys_portal action="INSERT_OR_UPDATE">
                 <dropzone/>
                 <offset/>
@@ -1572,6 +1751,17 @@
                         <value>report_widget_description</value>
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>header_color</name>
+                        <portal_section display_value="Created 02-20-2020 13:47:34">66de1d16db8b0850808f68461b9619b9</portal_section>
+                        <sys_created_by>SCHINN</sys_created_by>
+                        <sys_created_on>2020-07-17 20:33:53</sys_created_on>
+                        <sys_id>4907abb51b0650549e6b85d7cc4bcb7f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>SCHINN</sys_updated_by>
+                        <sys_updated_on>2020-07-17 20:33:53</sys_updated_on>
+                        <value>#f0e516</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>title</name>
                         <portal_section display_value="Created 02-20-2020 13:47:34">66de1d16db8b0850808f68461b9619b9</portal_section>
                         <sys_created_by>SCHINN</sys_created_by>
@@ -2403,6 +2593,108 @@
                 <dropzone/>
                 <offset/>
                 <page display_value="PA Case &amp; Knowledge">b61c96a4db58089074471cb51b961960</page>
+                <summary>HR Open Chat Cases</summary>
+                <sys_created_by>SCHINN</sys_created_by>
+                <sys_created_on>2020-07-17 20:06:47</sys_created_on>
+                <sys_id>94d0ab79dbced010c91b5716f49619a0</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>SCHINN</sys_updated_by>
+                <sys_updated_on>2020-07-17 20:06:47</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 07-17-2020 13:06:47">94d0ab79dbced010c91b5716f49619a0</portal_section>
+                        <sys_created_by>SCHINN</sys_created_by>
+                        <sys_created_on>2020-07-17 20:06:47</sys_created_on>
+                        <sys_id>14d0ab79dbced010c91b5716f49619a1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>SCHINN</sys_updated_by>
+                        <sys_updated_on>2020-07-17 20:06:47</sys_updated_on>
+                        <value>65202ff5dbced010c91b5716f49619a8</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 07-17-2020 13:06:47">94d0ab79dbced010c91b5716f49619a0</portal_section>
+                        <sys_created_by>SCHINN</sys_created_by>
+                        <sys_created_on>2020-07-17 20:06:47</sys_created_on>
+                        <sys_id>18d0ef79dbced010c91b5716f4961940</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>SCHINN</sys_updated_by>
+                        <sys_updated_on>2020-07-17 20:06:47</sys_updated_on>
+                        <value>HR Open Chat Cases</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 07-17-2020 13:06:47">94d0ab79dbced010c91b5716f49619a0</portal_section>
+                        <sys_created_by>SCHINN</sys_created_by>
+                        <sys_created_on>2020-07-17 20:06:47</sys_created_on>
+                        <sys_id>1cd0ef79dbced010c91b5716f496193f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>SCHINN</sys_updated_by>
+                        <sys_updated_on>2020-07-17 20:06:47</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 07-17-2020 13:06:47">94d0ab79dbced010c91b5716f49619a0</portal_section>
+                        <sys_created_by>SCHINN</sys_created_by>
+                        <sys_created_on>2020-07-17 20:06:47</sys_created_on>
+                        <sys_id>54d0ef79dbced010c91b5716f4961940</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>SCHINN</sys_updated_by>
+                        <sys_updated_on>2020-07-17 20:06:47</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 07-17-2020 13:06:47">94d0ab79dbced010c91b5716f49619a0</portal_section>
+                        <sys_created_by>SCHINN</sys_created_by>
+                        <sys_created_on>2020-07-17 20:06:47</sys_created_on>
+                        <sys_id>58d0ef79dbced010c91b5716f496193f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>SCHINN</sys_updated_by>
+                        <sys_updated_on>2020-07-17 20:06:47</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 07-17-2020 13:06:47">94d0ab79dbced010c91b5716f49619a0</portal_section>
+                        <sys_created_by>SCHINN</sys_created_by>
+                        <sys_created_on>2020-07-17 20:06:47</sys_created_on>
+                        <sys_id>90d0ef79dbced010c91b5716f4961940</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>SCHINN</sys_updated_by>
+                        <sys_updated_on>2020-07-17 20:06:47</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 07-17-2020 13:06:47">94d0ab79dbced010c91b5716f49619a0</portal_section>
+                        <sys_created_by>SCHINN</sys_created_by>
+                        <sys_created_on>2020-07-17 20:06:47</sys_created_on>
+                        <sys_id>94d0ef79dbced010c91b5716f4961941</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>SCHINN</sys_updated_by>
+                        <sys_updated_on>2020-07-17 20:06:47</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_real_time</name>
+                        <portal_section display_value="Created 07-17-2020 13:06:47">94d0ab79dbced010c91b5716f49619a0</portal_section>
+                        <sys_created_by>SCHINN</sys_created_by>
+                        <sys_created_on>2020-07-17 20:06:47</sys_created_on>
+                        <sys_id>dcd0ef79dbced010c91b5716f496193f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>SCHINN</sys_updated_by>
+                        <sys_updated_on>2020-07-17 20:06:47</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Case &amp; Knowledge">b61c96a4db58089074471cb51b961960</page>
                 <summary>HR Case Unassigned</summary>
                 <sys_created_by>LGOMEZ</sys_created_by>
                 <sys_created_on>2019-10-01 21:53:32</sys_created_on>
@@ -3192,6 +3484,108 @@
                         <sys_updated_by>SCHINN</sys_updated_by>
                         <sys_updated_on>2019-11-06 15:25:41</sys_updated_on>
                         <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Case &amp; Knowledge">b61c96a4db58089074471cb51b961960</page>
+                <summary>HR Open Cases</summary>
+                <sys_created_by>SCHINN</sys_created_by>
+                <sys_created_on>2020-07-17 20:52:46</sys_created_on>
+                <sys_id>fd5b6f79db821410c91b5716f49619a1</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>SCHINN</sys_updated_by>
+                <sys_updated_on>2020-07-17 20:52:46</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 07-17-2020 13:52:46">fd5b6f79db821410c91b5716f49619a1</portal_section>
+                        <sys_created_by>SCHINN</sys_created_by>
+                        <sys_created_on>2020-07-17 20:52:46</sys_created_on>
+                        <sys_id>315b6f79db821410c91b5716f49619a5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>SCHINN</sys_updated_by>
+                        <sys_updated_on>2020-07-17 20:52:46</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 07-17-2020 13:52:46">fd5b6f79db821410c91b5716f49619a1</portal_section>
+                        <sys_created_by>SCHINN</sys_created_by>
+                        <sys_created_on>2020-07-17 20:52:46</sys_created_on>
+                        <sys_id>3d5b6f79db821410c91b5716f49619a3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>SCHINN</sys_updated_by>
+                        <sys_updated_on>2020-07-17 20:52:46</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 07-17-2020 13:52:46">fd5b6f79db821410c91b5716f49619a1</portal_section>
+                        <sys_created_by>SCHINN</sys_created_by>
+                        <sys_created_on>2020-07-17 20:52:46</sys_created_on>
+                        <sys_id>795b6f79db821410c91b5716f49619a2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>SCHINN</sys_updated_by>
+                        <sys_updated_on>2020-07-17 20:52:46</sys_updated_on>
+                        <value>65eaafb5db821410c91b5716f49619cd</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_real_time</name>
+                        <portal_section display_value="Created 07-17-2020 13:52:46">fd5b6f79db821410c91b5716f49619a1</portal_section>
+                        <sys_created_by>SCHINN</sys_created_by>
+                        <sys_created_on>2020-07-17 20:52:46</sys_created_on>
+                        <sys_id>795b6f79db821410c91b5716f49619a3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>SCHINN</sys_updated_by>
+                        <sys_updated_on>2020-07-17 20:52:46</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 07-17-2020 13:52:46">fd5b6f79db821410c91b5716f49619a1</portal_section>
+                        <sys_created_by>SCHINN</sys_created_by>
+                        <sys_created_on>2020-07-17 20:52:46</sys_created_on>
+                        <sys_id>b15b6f79db821410c91b5716f49619a4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>SCHINN</sys_updated_by>
+                        <sys_updated_on>2020-07-17 20:52:46</sys_updated_on>
+                        <value>HR Open Cases</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 07-17-2020 13:52:46">fd5b6f79db821410c91b5716f49619a1</portal_section>
+                        <sys_created_by>SCHINN</sys_created_by>
+                        <sys_created_on>2020-07-17 20:52:46</sys_created_on>
+                        <sys_id>b55b6f79db821410c91b5716f49619a3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>SCHINN</sys_updated_by>
+                        <sys_updated_on>2020-07-17 20:52:46</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 07-17-2020 13:52:46">fd5b6f79db821410c91b5716f49619a1</portal_section>
+                        <sys_created_by>SCHINN</sys_created_by>
+                        <sys_created_on>2020-07-17 20:52:46</sys_created_on>
+                        <sys_id>f15b6f79db821410c91b5716f49619a3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>SCHINN</sys_updated_by>
+                        <sys_updated_on>2020-07-17 20:52:46</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 07-17-2020 13:52:46">fd5b6f79db821410c91b5716f49619a1</portal_section>
+                        <sys_created_by>SCHINN</sys_created_by>
+                        <sys_created_on>2020-07-17 20:52:46</sys_created_on>
+                        <sys_id>fd5b6f79db821410c91b5716f49619a3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>SCHINN</sys_updated_by>
+                        <sys_updated_on>2020-07-17 20:52:46</sys_updated_on>
+                        <value>single_score</value>
                     </sys_portal_preferences>
                 </related_items_node>
             </sys_portal>

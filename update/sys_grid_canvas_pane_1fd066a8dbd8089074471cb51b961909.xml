@@ -3,14 +3,14 @@
         <grid_canvas display_value="PA New Tab">be1c96a4db58089074471cb51b961986</grid_canvas>
         <height>4</height>
         <portal_widget display_value="Created 10-01-2019 15:13:56">5fd066a8dbd8089074471cb51b961907</portal_widget>
-        <posx>6</posx>
+        <posx>4</posx>
         <posy>0</posy>
         <sys_class_name>sys_grid_canvas_pane</sys_class_name>
         <sys_created_by>LGOMEZ</sys_created_by>
         <sys_created_on>2019-10-01 22:13:56</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>1fd066a8dbd8089074471cb51b961909</sys_id>
-        <sys_mod_count>63</sys_mod_count>
+        <sys_mod_count>71</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Human Resources" source="x_sthc_human_resou">5166e53e6f310f0061f06ea22e3ee44b</sys_package>
         <sys_policy/>
@@ -18,7 +18,7 @@
         <sys_scope display_value="Human Resources">5166e53e6f310f0061f06ea22e3ee44b</sys_scope>
         <sys_update_name>sys_grid_canvas_pane_1fd066a8dbd8089074471cb51b961909</sys_update_name>
         <sys_updated_by>SCHINN</sys_updated_by>
-        <sys_updated_on>2020-04-20 22:47:13</sys_updated_on>
-        <width>3</width>
+        <sys_updated_on>2020-07-17 20:53:44</sys_updated_on>
+        <width>2</width>
     </sys_grid_canvas_pane>
 </record_update>
