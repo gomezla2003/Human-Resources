@@ -3,6 +3,7 @@
         <access>package_private</access>
         <active>true</active>
         <api_name>x_sthc_human_resou.EVG_SSI_EmailFormatterHR</api_name>
+        <caller_access/>
         <client_callable>false</client_callable>
         <description>Script Include used for formatting emails into a standard HTML format using some templates / styles</description>
         <name>EVG_SSI_EmailFormatterHR</name>

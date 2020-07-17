@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="x_sthc_human_resou_hr_case_service_center" label="Employee COVID Screening" max_length="40" name="x_sthc_human_resou_hr_covid_screening" sizeclass="5" type="collection">
+        <element label="Anorexia" max_length="40" name="anorexia" type="boolean"/>
+        <element label="Body Aches" max_length="40" name="body_aches" type="boolean"/>
+        <element label="Chest Discomfort" max_length="40" name="chest_discomfort" type="boolean"/>
+        <element label="Chills" max_length="40" name="chills" type="boolean"/>
+        <element label="Cough" max_length="40" name="cough" type="boolean"/>
+        <element label="Diarrhea" max_length="40" name="diarrhea" type="boolean"/>
+        <element label="Exposed Date" max_length="40" name="exposed_date" type="glide_date"/>
+        <element label="Fatigue" max_length="40" name="fatigue" type="boolean"/>
+        <element label="Fever" max_length="40" name="fever" type="boolean"/>
+        <element label="Headache" max_length="40" name="headache" type="boolean"/>
+        <element label="Loss of taste and smell" max_length="40" name="loss_of_tate_and_smell" type="boolean"/>
+        <element attributes="tree_picker=true" choice="1" label="Main Campus" max_length="40" name="main_campus" reference="cmn_location" reference_qual="u_boolean_1=true^EQ" reference_qual_condition="u_boolean_1=true^EQ" type="reference">
+            <choice/>
+        </element>
+        <element label="Nasal Congestion" max_length="40" name="nasal_congestion" type="boolean"/>
+        <element label="Nausea" max_length="40" name="nausea" type="boolean"/>
+        <element label="Personal Email" max_length="40" name="personal_email" type="string"/>
+        <element label="SOB" max_length="40" name="sob" type="boolean"/>
+        <element label="Sore Throat" max_length="40" name="sore_throat" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Symptom Start" max_length="40" name="symptom_start" type="glide_date"/>
+        <element label="Testing Date" max_length="40" name="testing_date" type="glide_date"/>
+        <element label="Vomiting" max_length="40" name="vomiting" type="boolean"/>
+    </element>
+</database>

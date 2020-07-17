@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_tour_element">
+    <sys_embedded_tour_element action="DELETE">
+        <cell_edit/>
+        <cell_types/>
+        <col/>
+        <cxs_results/>
+        <element_type>textarea</element_type>
+        <field/>
+        <field_action/>
+        <field_header/>
+        <filters/>
+        <form_buttons>additional_actions</form_buttons>
+        <form_element>field</form_element>
+        <form_section/>
+        <frameset>nav_filter</frameset>
+        <list_element>ui_action</list_element>
+        <list_header/>
+        <manual_css>textarea#hr_case\.work_notes.form-control</manual_css>
+        <name>e2f12b99db238f4874471cb51b9619ed.7.xpath</name>
+        <record_id/>
+        <related_field/>
+        <related_links/>
+        <related_list_element>ui_action</related_list_element>
+        <related_lists/>
+        <related_table/>
+        <row/>
+        <sys_class_name>sys_embedded_tour_element</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2018-01-08 15:41:33</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>1bd3af95db638f4874471cb51b9619ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>e2f12b99db238f4874471cb51b9619ed.7.xpath</sys_name>
+        <sys_package display_value="Human Resources" source="x_sthc_human_resou">5166e53e6f310f0061f06ea22e3ee44b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Human Resources">5166e53e6f310f0061f06ea22e3ee44b</sys_scope>
+        <sys_update_name>sys_embedded_tour_element_1bd3af95db638f4874471cb51b9619ce</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2018-01-08 15:41:33</sys_updated_on>
+        <table/>
+        <type>manual_css</type>
+        <ui_action/>
+    </sys_embedded_tour_element>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Human Resources">5166e53e6f310f0061f06ea22e3ee44b</application>
+        <comments/>
+        <file_path/>
+        <instance_id>25bc9655a91c5d0058ebf191520622b5</instance_id>
+        <instance_name>shc</instance_name>
+        <name>sys_embedded_tour_element_1bd3af95db638f4874471cb51b9619ce</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_tour_element"><sys_embedded_tour_element action="INSERT_OR_UPDATE"><cell_edit/><cell_types/><col/><cxs_results/><element_type>textarea</element_type><field/><field_action/><field_header/><filters/><form_buttons>additional_actions</form_buttons><form_element>field</form_element><form_section/><frameset>nav_filter</frameset><list_element>ui_action</list_element><list_header/><manual_css>textarea#hr_case\.work_notes.form-control</manual_css><name>e2f12b99db238f4874471cb51b9619ed.7.xpath</name><record_id/><related_field/><related_links/><related_list_element>ui_action</related_list_element><related_lists/><related_table/><row/><sys_class_name>sys_embedded_tour_element</sys_class_name><sys_created_by>LGOMEZ</sys_created_by><sys_created_on>2018-01-08 15:41:33</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>1bd3af95db638f4874471cb51b9619ce</sys_id><sys_mod_count>0</sys_mod_count><sys_name>e2f12b99db238f4874471cb51b9619ed.7.xpath</sys_name><sys_package display_value="Human Resources" source="x_sthc_human_resou">5166e53e6f310f0061f06ea22e3ee44b</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Human Resources">5166e53e6f310f0061f06ea22e3ee44b</sys_scope><sys_update_name>sys_embedded_tour_element_1bd3af95db638f4874471cb51b9619ce</sys_update_name><sys_updated_by>LGOMEZ</sys_updated_by><sys_updated_on>2018-01-08 15:41:33</sys_updated_on><table/><type>manual_css</type><ui_action/></sys_embedded_tour_element></record_update>]]></payload>
+        <payload_hash>1121224523</payload_hash>
+        <record_name>e2f12b99db238f4874471cb51b9619ed.7.xpath</record_name>
+        <reverted_from/>
+        <source>c67af483dbcb834474471cb51b961950</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2018-01-08 15:41:33</sys_created_on>
+        <sys_id>93d3af95db638f4874471cb51b9619d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>160d66f1a6e0000001</sys_recorded_at>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2018-01-08 15:41:33</sys_updated_on>
+        <type>Guided Tour Element</type>
+        <update_guid>9bd3af9567638f48f325c79fc381eccf</update_guid>
+        <update_guid_history>9bd3af9567638f48f325c79fc381eccf:1121224523</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2018-01-08 18:31:11</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_embedded_tour_element">sys_embedded_tour_element</sys_db_object>
+        <sys_id>4b9bd139cdfb40d8a3bcd74c46f87161</sys_id>
+        <sys_metadata>1bd3af95db638f4874471cb51b9619ce</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>e2f12b99db238f4874471cb51b9619ed.7.xpath</sys_name>
+        <sys_package display_value="Human Resources" source="x_sthc_human_resou">5166e53e6f310f0061f06ea22e3ee44b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Human Resources">5166e53e6f310f0061f06ea22e3ee44b</sys_scope>
+        <sys_scope_delete display_value="">3db993b30109462d9691ad2bc0908089</sys_scope_delete>
+        <sys_update_name>sys_embedded_tour_element_1bd3af95db638f4874471cb51b9619ce</sys_update_name>
+        <sys_update_version display_value="sys_embedded_tour_element_1bd3af95db638f4874471cb51b9619ce">93d3af95db638f4874471cb51b9619d0</sys_update_version>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2018-01-08 18:31:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

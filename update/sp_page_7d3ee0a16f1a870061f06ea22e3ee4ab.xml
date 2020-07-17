@@ -25,4 +25,5 @@
         <sys_updated_on>2017-12-15 16:35:48</sys_updated_on>
         <title>HR Index</title>
     </sp_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=7d3ee0a16f1a870061f06ea22e3ee4ab"/>
 </record_update>

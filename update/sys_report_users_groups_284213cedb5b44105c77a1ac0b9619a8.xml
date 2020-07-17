@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id/>
+        <report_id display_value="ALL HR CASES - SHELLEY">b4611706db5b44105c77a1ac0b961916</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>SHollien</sys_created_by>
+        <sys_created_on>2020-03-03 20:49:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>284213cedb5b44105c77a1ac0b9619a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>b4611706db5b44105c77a1ac0b961916</sys_name>
+        <sys_package display_value="Human Resources" source="x_sthc_human_resou">5166e53e6f310f0061f06ea22e3ee44b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Human Resources">5166e53e6f310f0061f06ea22e3ee44b</sys_scope>
+        <sys_update_name>sys_report_users_groups_284213cedb5b44105c77a1ac0b9619a8</sys_update_name>
+        <sys_updated_by>SHollien</sys_updated_by>
+        <sys_updated_on>2020-03-03 20:49:00</sys_updated_on>
+        <user_id display_value="Shelley Chinn">6071f5626f13e100e59533d9ea3ee479</user_id>
+    </sys_report_users_groups>
+</record_update>

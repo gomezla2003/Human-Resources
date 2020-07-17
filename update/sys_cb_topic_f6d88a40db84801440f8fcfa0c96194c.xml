@@ -5,8 +5,10 @@
     return gr.canCreate();
 })()
 </applicability>
+        <category/>
         <connect_queue/>
         <description>ITSM conversation for creating incidents.</description>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
         <graph>{
   "goals": {
     "1382a1d852f44769a78cc05663b2e12c": {
@@ -360,6 +362,9 @@
         <key_phrases>Submit a HR case,create,open,incident,ticket,issue,broken,help,IT</key_phrases>
         <live_agent>false</live_agent>
         <name>Submit a HR case</name>
+        <nlu_intent/>
+        <nlu_model/>
+        <nlu_provider/>
         <roles/>
         <sys_class_name>sys_cb_topic</sys_class_name>
         <sys_created_by>LGOMEZ</sys_created_by>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_indicator_breakdowns">
+    <pa_indicator_breakdowns action="DELETE">
+        <breakdown display_value="Task Type Automated">4626105213be22007dc7b3228144b093</breakdown>
+        <display>true</display>
+        <indicator display_value="Tasks Closed by EMR Security">61ec3bfbdbacc8505c77a1ac0b9619bf</indicator>
+        <order>200</order>
+        <sql_statement/>
+        <sys_class_name>pa_indicator_breakdowns</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2019-10-24 17:34:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>186df37fdbacc8505c77a1ac0b961985</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Task Type Automated.Tasks Closed by EMR Security</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Human Resources" source="x_sthc_human_resou">5166e53e6f310f0061f06ea22e3ee44b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Human Resources">5166e53e6f310f0061f06ea22e3ee44b</sys_scope>
+        <sys_update_name>pa_indicator_breakdowns_186df37fdbacc8505c77a1ac0b961985</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2019-10-24 17:34:19</sys_updated_on>
+    </pa_indicator_breakdowns>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Human Resources">5166e53e6f310f0061f06ea22e3ee44b</application>
+        <comments/>
+        <file_path/>
+        <instance_id>25bc9655a91c5d0058ebf191520622b5</instance_id>
+        <instance_name>shc</instance_name>
+        <name>pa_indicator_breakdowns_186df37fdbacc8505c77a1ac0b961985</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_indicator_breakdowns"><pa_indicator_breakdowns action="INSERT_OR_UPDATE"><breakdown display_value="Task Type Automated">4626105213be22007dc7b3228144b093</breakdown><display>true</display><indicator display_value="Tasks Closed by EMR Security">61ec3bfbdbacc8505c77a1ac0b9619bf</indicator><order>200</order><sql_statement/><sys_class_name>pa_indicator_breakdowns</sys_class_name><sys_created_by>LGOMEZ</sys_created_by><sys_created_on>2019-10-24 17:34:06</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_id>186df37fdbacc8505c77a1ac0b961985</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Task Type Automated.Tasks Closed by EMR Security</sys_name><sys_overrides/><sys_package display_value="Human Resources" source="x_sthc_human_resou">5166e53e6f310f0061f06ea22e3ee44b</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Human Resources">5166e53e6f310f0061f06ea22e3ee44b</sys_scope><sys_update_name>pa_indicator_breakdowns_186df37fdbacc8505c77a1ac0b961985</sys_update_name><sys_updated_by>LGOMEZ</sys_updated_by><sys_updated_on>2019-10-24 17:34:19</sys_updated_on></pa_indicator_breakdowns></record_update>]]></payload>
+        <payload_hash>-171674788</payload_hash>
+        <record_name>61ec3bfbdbacc8505c77a1ac0b9619bf</record_name>
+        <reverted_from/>
+        <source>c67af483dbcb834474471cb51b961950</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2019-10-24 17:34:19</sys_created_on>
+        <sys_id>ab6d777fdbacc8505c77a1ac0b9619d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16dfed55f4d0000001</sys_recorded_at>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2019-10-24 17:34:19</sys_updated_on>
+        <type>Indicator Breakdown</type>
+        <update_guid>636d777faaacc8509a6dad12d00fd3d4</update_guid>
+        <update_guid_history>636d777faaacc8509a6dad12d00fd3d4:-171674788,9c6df37f45acc85003bc0a293971238a:-819857891</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 10-24-2019 10:35:15">09adbfbfdbacc8505c77a1ac0b96191d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2019-10-24 17:35:15</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="pa_indicator_breakdowns">pa_indicator_breakdowns</sys_db_object>
+        <sys_id>d536aeca2ebb4ebeb4c81a0cc3497c71</sys_id>
+        <sys_metadata>186df37fdbacc8505c77a1ac0b961985</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Task Type Automated.Tasks Closed by EMR Security</sys_name>
+        <sys_package display_value="Human Resources" source="x_sthc_human_resou">5166e53e6f310f0061f06ea22e3ee44b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Human Resources">5166e53e6f310f0061f06ea22e3ee44b</sys_scope>
+        <sys_scope_delete display_value="">3db993b30109462d9691ad2bc0908089</sys_scope_delete>
+        <sys_update_name>pa_indicator_breakdowns_186df37fdbacc8505c77a1ac0b961985</sys_update_name>
+        <sys_update_version display_value="pa_indicator_breakdowns_186df37fdbacc8505c77a1ac0b961985">ab6d777fdbacc8505c77a1ac0b9619d4</sys_update_version>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2019-10-24 17:35:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

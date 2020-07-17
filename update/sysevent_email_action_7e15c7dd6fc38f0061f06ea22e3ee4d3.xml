@@ -8,7 +8,7 @@
         <category display_value="Incident" name="Incident">7d7c928f13f003000f3f76d66144b0b2</category>
         <collection>incident</collection>
         <condition table="incident">commentsVALCHANGES^incident_stateNOT IN10,7^EQ<item endquery="false" field="comments" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
-            <item endquery="false" field="incident_state" goto="false" newquery="false" operator="NOT IN" or="false" value="10,7"/>
+            <item display_value="10,7" endquery="false" field="incident_state" goto="false" newquery="false" operator="NOT IN" or="false" value="10,7"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <content_type>multipart/mixed</content_type>

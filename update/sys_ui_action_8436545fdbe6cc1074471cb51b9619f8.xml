@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>convert</action_name>
+        <active>true</active>
+        <client>false</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition>current.active == true;</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <hint/>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>Convert to Incident</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[var inc = new GlideRecord("incident");
+inc.initialize();
+inc.short_description = current.short_description;
+inc.caller_id = current.caller;
+inc.u_preferred_contact_number = current.phone;
+inc.work_notes = current.description + current.work_notes.getJournalEntry(-1);
+
+//inc.incident_state = '1';
+
+inc.work_notes = "Submitted from HR Case " + current.number + " by caller " + current.caller.getDisplayValue();
+
+
+var sysID = inc.insert();
+action.setRedirectURL(current);
+GlideSysAttachment.copy('x_sthc_human_resou_hr_case_service_center', current.sys_id, 'incident',inc.sys_id);
+
+//current.state = 706;
+current.setValue('state',706);
+current.active = false;
+current.work_notes = "Converted into Incident " + inc.number;
+
+var mySysID = current.update();
+
+gs.addInfoMessage("Incident " + inc.number + " created");
+action.setRedirectURL(inc);
+action.setReturnURL(current);
+ ]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2020-01-29 21:32:37</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>8436545fdbe6cc1074471cb51b9619f8</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>Convert to Incident</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Human Resources" source="x_sthc_human_resou">5166e53e6f310f0061f06ea22e3ee44b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Human Resources">5166e53e6f310f0061f06ea22e3ee44b</sys_scope>
+        <sys_update_name>sys_ui_action_8436545fdbe6cc1074471cb51b9619f8</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2020-01-29 21:56:15</sys_updated_on>
+        <table>x_sthc_human_resou_hr_case_service_center</table>
+        <u_ctv>false</u_ctv>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

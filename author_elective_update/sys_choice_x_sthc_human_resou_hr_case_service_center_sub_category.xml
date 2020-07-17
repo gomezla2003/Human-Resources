@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="sub_category" table="x_sthc_human_resou_hr_case_service_center" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>sub_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Symptoms</label>
+            <language>en</language>
+            <name>x_sthc_human_resou_hr_case_service_center</name>
+            <sequence/>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-07-06 19:48:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>2713ba52db7d5810c91b5716f496194c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-07-06 19:49:00</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>sub_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>High Priority - LAB CALLING</label>
+            <language>en</language>
+            <name>x_sthc_human_resou_hr_case_service_center</name>
+            <sequence/>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-07-17 18:29:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>157ac7f9db0ed8140249be4f299619fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-07-17 18:29:19</sys_updated_on>
+            <value>10</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>sub_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>High Priority - Physician</label>
+            <language>en</language>
+            <name>x_sthc_human_resou_hr_case_service_center</name>
+            <sequence/>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-07-17 18:29:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>8b8a873ddb0ed8140249be4f299619f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-07-17 18:29:48</sys_updated_on>
+            <value>11</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>sub_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Translator Needed</label>
+            <language>en</language>
+            <name>x_sthc_human_resou_hr_case_service_center</name>
+            <sequence/>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-07-17 18:30:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>14aa0b31db4ed8140249be4f2996196e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-07-17 18:30:03</sys_updated_on>
+            <value>12</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>sub_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Test Results</label>
+            <language>en</language>
+            <name>x_sthc_human_resou_hr_case_service_center</name>
+            <sequence/>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-07-06 19:48:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>3423b612db7d5810c91b5716f4961916</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-07-06 19:49:02</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>sub_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_sthc_human_resou_hr_case_service_center</name>
+            <sequence/>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-07-06 19:48:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>4e23ba52db7d5810c91b5716f496199f</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-07-06 19:49:03</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>sub_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Exposed - Work</label>
+            <language>en</language>
+            <name>x_sthc_human_resou_hr_case_service_center</name>
+            <sequence/>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-07-06 19:48:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>03237692db7d5810c91b5716f4961950</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-07-06 19:49:05</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>sub_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Exposed - Community</label>
+            <language>en</language>
+            <name>x_sthc_human_resou_hr_case_service_center</name>
+            <sequence/>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-07-06 19:48:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>ff23b692db7d5810c91b5716f496198f</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-07-06 19:49:07</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>sub_category</element>
+            <name>x_sthc_human_resou_hr_case_service_center</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-07-06 19:48:29</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>b0237692db7d5810c91b5716f4961973</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sub_category</sys_name>
+            <sys_package display_value="Human Resources" source="x_sthc_human_resou">5166e53e6f310f0061f06ea22e3ee44b</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Human Resources">5166e53e6f310f0061f06ea22e3ee44b</sys_scope>
+            <sys_update_name>sys_choice_x_sthc_human_resou_hr_case_service_center_sub_category</sys_update_name>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-07-06 19:48:29</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

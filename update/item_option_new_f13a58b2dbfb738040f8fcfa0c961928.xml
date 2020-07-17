@@ -2,7 +2,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="Idea / Optimization (New)">5a3018b6dbf7738040f8fcfa0c96192a</cat_item>
+        <cat_item display_value="">5a3018b6dbf7738040f8fcfa0c96192a</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field>u_demand_request_type</choice_field>
@@ -75,6 +75,7 @@
         <ui_page/>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
+        <validate_regex/>
         <variable_name/>
         <variable_set/>
         <variable_width/>

@@ -2,12 +2,12 @@
     <sysevent_email_action action="INSERT_OR_UPDATE">
         <action_insert>true</action_insert>
         <action_update>true</action_update>
-        <active>false</active>
+        <active>true</active>
         <advanced_condition/>
         <affected_field_on_event/>
         <category display_value="Human Resources" name="Human Resources">b69d02137f232200ee2e108c3ffa913c</category>
         <collection>x_sthc_human_resou_hr_case_service_center</collection>
-        <condition table="x_sthc_human_resou_hr_case_service_center">stateCHANGESTO3^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="3"/>
+        <condition table="x_sthc_human_resou_hr_case_service_center">stateCHANGESTO3^EQ<item display_value="Closed Complete" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="3"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <content_type>multipart/mixed</content_type>
@@ -51,7 +51,7 @@
 </div>
 <p>&nbsp;</p>
 <p><span style="font-size: 12pt;">If you have any questions about this ticket, please contact the HR Shared Services</span></p>
-<p><strong><span style="font-size: 12pt;">Your HonorHealth HR&nbsp;Shared Services<br />(480) 323&nbsp;- 4501&nbsp;</span></strong></p>
+<p><strong><span style="font-size: 12pt;">Your HonorHealth HR&nbsp;Shared Services<br />(480)&nbsp;587 -&nbsp;5111</span></strong></p>
 <hr style="height: 2px; border: none; color: #000; background-color: #72246c;" />
 <p>&nbsp;</p>]]></message_html>
         <message_list/>
@@ -75,7 +75,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>97b704356f83cf0061f06ea22e3ee40c</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>HR CASE closed (Customer)</sys_name>
         <sys_overrides/>
         <sys_package display_value="Human Resources" source="x_sthc_human_resou">5166e53e6f310f0061f06ea22e3ee44b</sys_package>
@@ -84,7 +84,7 @@
         <sys_scope display_value="Human Resources">5166e53e6f310f0061f06ea22e3ee44b</sys_scope>
         <sys_update_name>sysevent_email_action_97b704356f83cf0061f06ea22e3ee40c</sys_update_name>
         <sys_updated_by>LGOMEZ</sys_updated_by>
-        <sys_updated_on>2019-09-26 18:22:21</sys_updated_on>
+        <sys_updated_on>2019-11-01 18:25:21</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

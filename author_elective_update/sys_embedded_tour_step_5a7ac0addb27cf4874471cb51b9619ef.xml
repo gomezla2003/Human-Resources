@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_tour_step">
+    <sys_embedded_tour_step action="DELETE">
+        <action>false</action>
+        <action_event>next</action_event>
+        <action_target/>
+        <action_target_ref display_value="e2f12b99db238f4874471cb51b9619ed.9.xpath">427a04addb27cf4874471cb51b96196e</action_target_ref>
+        <active>true</active>
+        <content><![CDATA[Select a priority
+Expected response times (in business hours):
+Priority 1: 2 Hours
+Priority 2: 8 Hours
+Priority 3: 24 hours
+Priority 4: 36 hours]]></content>
+        <guide display_value="HR form (Basic)">e2f12b99db238f4874471cb51b9619ed</guide>
+        <implicit>false</implicit>
+        <link/>
+        <name>Step 9</name>
+        <options/>
+        <order>0</order>
+        <placement>left</placement>
+        <sys_class_name>sys_embedded_tour_step</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2018-01-08 18:30:14</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>5a7ac0addb27cf4874471cb51b9619ef</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Step 9</sys_name>
+        <sys_package display_value="Human Resources" source="x_sthc_human_resou">5166e53e6f310f0061f06ea22e3ee44b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Human Resources">5166e53e6f310f0061f06ea22e3ee44b</sys_scope>
+        <sys_update_name>sys_embedded_tour_step_5a7ac0addb27cf4874471cb51b9619ef</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2018-01-08 18:43:11</sys_updated_on>
+        <target/>
+        <target_ref display_value="e2f12b99db238f4874471cb51b9619ed.9.xpath">427a04addb27cf4874471cb51b96196e</target_ref>
+        <ui_version>dynamic</ui_version>
+        <view/>
+        <window>hr_case.do</window>
+    </sys_embedded_tour_step>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Human Resources">5166e53e6f310f0061f06ea22e3ee44b</application>
+        <comments/>
+        <file_path/>
+        <instance_id>25bc9655a91c5d0058ebf191520622b5</instance_id>
+        <instance_name>shc</instance_name>
+        <name>sys_embedded_tour_step_5a7ac0addb27cf4874471cb51b9619ef</name>
+        <order/>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_embedded_tour_step"&gt;&lt;sys_embedded_tour_step action="INSERT_OR_UPDATE"&gt;&lt;action&gt;false&lt;/action&gt;&lt;action_event&gt;next&lt;/action_event&gt;&lt;action_target/&gt;&lt;action_target_ref display_value="e2f12b99db238f4874471cb51b9619ed.9.xpath"&gt;427a04addb27cf4874471cb51b96196e&lt;/action_target_ref&gt;&lt;active&gt;true&lt;/active&gt;&lt;content&gt;&lt;![CDATA[Select a priority
+Expected response times (in business hours):
+Priority 1: 2 Hours
+Priority 2: 8 Hours
+Priority 3: 24 hours
+Priority 4: 36 hours]]&gt;&lt;/content&gt;&lt;guide display_value="HR form (Basic)"&gt;e2f12b99db238f4874471cb51b9619ed&lt;/guide&gt;&lt;implicit&gt;false&lt;/implicit&gt;&lt;link/&gt;&lt;name&gt;Step 9&lt;/name&gt;&lt;options/&gt;&lt;order&gt;0&lt;/order&gt;&lt;placement&gt;left&lt;/placement&gt;&lt;sys_class_name&gt;sys_embedded_tour_step&lt;/sys_class_name&gt;&lt;sys_created_by&gt;LGOMEZ&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-01-08 18:30:14&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;5a7ac0addb27cf4874471cb51b9619ef&lt;/sys_id&gt;&lt;sys_mod_count&gt;10&lt;/sys_mod_count&gt;&lt;sys_name&gt;Step 9&lt;/sys_name&gt;&lt;sys_package display_value="Human Resources" source="x_sthc_human_resou"&gt;5166e53e6f310f0061f06ea22e3ee44b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Human Resources"&gt;5166e53e6f310f0061f06ea22e3ee44b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_embedded_tour_step_5a7ac0addb27cf4874471cb51b9619ef&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;LGOMEZ&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-01-08 18:43:11&lt;/sys_updated_on&gt;&lt;target/&gt;&lt;target_ref display_value="e2f12b99db238f4874471cb51b9619ed.9.xpath"&gt;427a04addb27cf4874471cb51b96196e&lt;/target_ref&gt;&lt;ui_version&gt;dynamic&lt;/ui_version&gt;&lt;view/&gt;&lt;window&gt;hr_case.do&lt;/window&gt;&lt;/sys_embedded_tour_step&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1928609318</payload_hash>
+        <record_name>Step 9</record_name>
+        <reverted_from/>
+        <source>c67af483dbcb834474471cb51b961950</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2018-01-08 18:43:11</sys_created_on>
+        <sys_id>7b6d0ce1dba7cf4874471cb51b9619a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>160d71563920000001</sys_recorded_at>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2018-01-08 18:43:11</sys_updated_on>
+        <type>Guided Tour Step</type>
+        <update_guid>336d0ce129a7cf4867b81a22d5c6e4a3</update_guid>
+        <update_guid_history>336d0ce129a7cf4867b81a22d5c6e4a3:-1928609318,046d00e1aba7cf4800d926453312def4:-892864391,003d806104a7cf48e8f9cd7bd08c4981:142880536,3fdc00edfa67cf4813b1ac1bfd4b288c:1178625463,38ca0c219567cf4855cc1c156ce27fc5:-1395560564,c4bac021a467cf480e065f9cd63c83e7:-522024917,98aa0ced4d27cf4875791164b7366ca5:351510730,e09a84ed6127cf48d23edd819e5db452:1225046377,0a8a40ed9a27cf487086c515e9577774:2098582024,3a7a88ad6c27cf48705472373dcc94e9:-1322849625,5e7ac0adf927cf48c5e34718bf9a05f0:-449313978</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2018-01-08 18:43:34</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_embedded_tour_step">sys_embedded_tour_step</sys_db_object>
+        <sys_id>0d49fb1a7b8444cf82ff42020e033091</sys_id>
+        <sys_metadata>5a7ac0addb27cf4874471cb51b9619ef</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Step 9</sys_name>
+        <sys_package display_value="Human Resources" source="x_sthc_human_resou">5166e53e6f310f0061f06ea22e3ee44b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Human Resources">5166e53e6f310f0061f06ea22e3ee44b</sys_scope>
+        <sys_scope_delete display_value="">3db993b30109462d9691ad2bc0908089</sys_scope_delete>
+        <sys_update_name>sys_embedded_tour_step_5a7ac0addb27cf4874471cb51b9619ef</sys_update_name>
+        <sys_update_version display_value="sys_embedded_tour_step_5a7ac0addb27cf4874471cb51b9619ef">7b6d0ce1dba7cf4874471cb51b9619a3</sys_update_version>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2018-01-08 18:43:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

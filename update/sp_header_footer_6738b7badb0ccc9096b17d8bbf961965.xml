@@ -6,28 +6,28 @@
   var c = this;
 }]]></client_script>
         <controller_as>c</controller_as>
-        <css>#container{&#13;
-  width: 100%;&#13;
-  background-color:#E5E2E1;&#13;
-  &#13;
-}&#13;
-&#13;
-#wrapper{&#13;
-  display: table;&#13;
-    table-layout: fixed;&#13;
-    margin:auto;&#13;
-  text-align: center;&#13;
-    width:100%;&#13;
-  height:70px;&#13;
-  vertical-align: middle;&#13;
-&#13;
- &#13;
-}&#13;
-&#13;
-#wrapper div{&#13;
-display: table-cell;&#13;
-  vertical-align: middle;&#13;
-}&#13;
+        <css>#container{
+  width: 100%;
+  background-color:#E5E2E1;
+  
+}
+
+#wrapper{
+  display: table;
+    table-layout: fixed;
+    margin:auto;
+  text-align: center;
+    width:100%;
+  height:70px;
+  vertical-align: middle;
+
+ 
+}
+
+#wrapper div{
+display: table-cell;
+  vertical-align: middle;
+}
 </css>
         <data_table>sp_instance</data_table>
         <demo_data/>
@@ -53,35 +53,30 @@ display: table-cell;&#13;
         <sys_created_on>2019-09-26 18:06:20</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>6738b7badb0ccc9096b17d8bbf961965</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>HR Footer</sys_name>
         <sys_package display_value="Human Resources" source="x_sthc_human_resou">5166e53e6f310f0061f06ea22e3ee44b</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Human Resources">5166e53e6f310f0061f06ea22e3ee44b</sys_scope>
         <sys_update_name>sp_header_footer_6738b7badb0ccc9096b17d8bbf961965</sys_update_name>
-        <sys_updated_by>LGOMEZ</sys_updated_by>
-        <sys_updated_on>2019-09-26 18:14:50</sys_updated_on>
+        <sys_updated_by>SHollien</sys_updated_by>
+        <sys_updated_on>2020-06-15 18:10:51</sys_updated_on>
         <template><![CDATA[<div id="container">
 <div id="wrapper">
   <div class="service">
-    <h4><a href="https://shcdev.service-now.com/sp">Employee Benefits</a></h4>
+    <h4><a href="tel:1-877-768-7182">Employee Benefits</a></h4>
   <h4>Contact Number: 1-877-768-7182</h4>
   </div>
   
   <div class="security">
-  <h4><a href="https://shcdev.service-now.com/physical_security">Employee Verifications</a></h4>
+  <h4><a href="tel:1-866-221-2105">Employee Verifications</a></h4>
   <h4>Contact Number: 1-866-221-2105</h4>
   </div>
   
    <div class="facilities">
-  <h4><a href="https://shcdev.service-now.com/physical_security">HR Shared Services</a></h4>
+  <h4><a href="tel:480-587-5111">HR Shared Services & Payroll</a></h4>
   <h4>Contact Number: 480-587-5111</h4>
-  </div>
-  
-   <div class="supply">
-  <h4><a href="https://shcdev.service-now.com/supply_chain">Payroll</a></h4>
-  <h4>Contact Number: 480-587-5300</h4>
   </div>
   
    

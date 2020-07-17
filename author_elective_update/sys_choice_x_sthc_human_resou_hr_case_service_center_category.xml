@@ -509,6 +509,42 @@
             <element>category</element>
             <hint/>
             <inactive>false</inactive>
+            <label>Tuition Repayment &amp; Collections</label>
+            <language>en</language>
+            <name>x_sthc_human_resou_hr_case_service_center</name>
+            <sequence/>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-10-24 16:49:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>1c23b7fbdbe40450808f68461b9619ca</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-10-24 16:49:54</sys_updated_on>
+            <value>50</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Employee Referral Program</label>
+            <language>en</language>
+            <name>x_sthc_human_resou_hr_case_service_center</name>
+            <sequence/>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-10-24 16:50:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>83433ffbdbe40450808f68461b961974</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-10-24 16:50:18</sys_updated_on>
+            <value>51</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
             <label>Employee Relations</label>
             <language>en</language>
             <name>x_sthc_human_resou_hr_case_service_center</name>
@@ -521,6 +557,96 @@
             <sys_updated_by>LGOMEZ</sys_updated_by>
             <sys_updated_on>2019-09-11 23:47:02</sys_updated_on>
             <value>6</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Call for Employee</label>
+            <language>en</language>
+            <name>x_sthc_human_resou_hr_case_service_center</name>
+            <sequence/>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-07-10 15:31:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>dc7ed6afdb715090c91b5716f49619ce</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-07-10 15:31:04</sys_updated_on>
+            <value>60</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Patient Related</label>
+            <language>en</language>
+            <name>x_sthc_human_resou_hr_case_service_center</name>
+            <sequence/>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-07-10 15:31:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>2c9edaefdb715090c91b5716f496197f</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-07-10 15:31:26</sys_updated_on>
+            <value>61</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Vendor Call</label>
+            <language>en</language>
+            <name>x_sthc_human_resou_hr_case_service_center</name>
+            <sequence/>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-07-10 15:31:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>0eae9223dbb15090c91b5716f4961945</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-07-10 15:31:36</sys_updated_on>
+            <value>62</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Wrong number/Hung up</label>
+            <language>en</language>
+            <name>x_sthc_human_resou_hr_case_service_center</name>
+            <sequence/>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-07-10 15:31:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>a8be9223dbb15090c91b5716f4961946</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-07-10 15:31:47</sys_updated_on>
+            <value>63</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Testing</label>
+            <language>en</language>
+            <name>x_sthc_human_resou_hr_case_service_center</name>
+            <sequence/>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-07-10 15:31:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>07be1aa3dbb15090c91b5716f49619bf</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-07-10 15:31:58</sys_updated_on>
+            <value>64</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -576,6 +702,24 @@
             <sys_updated_on>2019-09-11 23:47:19</sys_updated_on>
             <value>9</value>
         </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>COVID19</label>
+            <language>en</language>
+            <name>x_sthc_human_resou_hr_case_service_center</name>
+            <sequence/>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-07-06 18:38:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>ee13a256dbf55810c91b5716f49619f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-07-06 18:38:35</sys_updated_on>
+            <value>covid19</value>
+        </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>category</element>
             <name>x_sthc_human_resou_hr_case_service_center</name>
@@ -583,7 +727,7 @@
             <sys_created_by>LGOMEZ</sys_created_by>
             <sys_created_on>2019-09-11 23:45:17</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>eaf57bcadbf3374040f8fcfa0c961925</sys_id>
+            <sys_id>59b4c890dbd880905c77a1ac0b9619da</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>category</sys_name>
             <sys_package display_value="Human Resources" source="x_sthc_human_resou">5166e53e6f310f0061f06ea22e3ee44b</sys_package>

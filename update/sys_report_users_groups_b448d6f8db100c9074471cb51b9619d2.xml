@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id display_value="HR Call Agents" name="HR Call Agents">0c1c45b16f87cf0061f06ea22e3ee454</group_id>
+        <report_id display_value="HR Case by Priority">106952a8dbd4089074471cb51b96192a</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2019-10-02 16:14:50</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b448d6f8db100c9074471cb51b9619d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>106952a8dbd4089074471cb51b96192a</sys_name>
+        <sys_package display_value="Human Resources" source="x_sthc_human_resou">5166e53e6f310f0061f06ea22e3ee44b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Human Resources">5166e53e6f310f0061f06ea22e3ee44b</sys_scope>
+        <sys_update_name>sys_report_users_groups_b448d6f8db100c9074471cb51b9619d2</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2019-10-02 16:14:50</sys_updated_on>
+        <user_id/>
+    </sys_report_users_groups>
+</record_update>

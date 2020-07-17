@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="DELETE">
+        <client_script><![CDATA[function myInformation($scope) {
+	$scope.$on('finishedChanged', function(event, data) {
+		$scope.profile = data.profile;
+		var loc = data.profile.location;
+		$scope.profile.address =  loc.street;
+		if (loc.city)
+			$scope.profile.address += ', ' + loc.city;
+
+		if (loc.state)
+			$scope.profile.address += ', ' + loc.state;
+
+		if (loc.zip)
+			$scope.profile.address += ' ' + loc.zip;
+
+		if (loc.street) {
+			$scope.profile.mapUrl = 'https://www.google.com/maps/search/' + loc.street.replace(/\s/g,'+') + '/@' + loc.latitude + ',' + loc.longitude + ',17z';
+			$scope.profile.mapIframe  =  loc.street.replace(/\s/g,'+');
+
+		}
+		$scope.profile.showAgenda = false; //showAgenda(data.hr_tasks);
+	});
+}
+
+function showAgenda(tasks){
+	for (var i = 0; i < tasks.length; i++) {
+		if (tasks[i].template =='58314b0583c56058341a058316105836')
+			return tasks[i].finished;
+	}
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance_table</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list>glyph,table,field_list,maximum_entries,display_field,order_by,order_direction</field_list>
+        <has_preview>false</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link/>
+        <name>HR My Information LG</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[var gr = GlideRecord('hr_profile');
+gr.addQuery('user', gs.getUserID());
+gr.query();
+if (!gr.next()) {
+  gr.setValue('user', gs.getUserID());
+  gr.insert();
+}
+data.profile = gr;
+data.work_phone = gr.work_phone.getDisplayValue();
+var userId = gs.getUserID();
+var profileId = gr.getValue('sys_id');
+data.link = '?id=hrsp_user_profile&sys_id='+ userId;
+]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2017-12-15 16:37:39</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>7a8ac0f56f83cf0061f06ea22e3ee4c2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>HR My Information LG</sys_name>
+        <sys_package display_value="Human Resources" source="x_sthc_human_resou">5166e53e6f310f0061f06ea22e3ee44b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Human Resources">5166e53e6f310f0061f06ea22e3ee44b</sys_scope>
+        <sys_update_name>sp_widget_7a8ac0f56f83cf0061f06ea22e3ee4c2</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2017-12-15 16:39:50</sys_updated_on>
+        <template><![CDATA[<sp-panel rect="rect">
+	<a href="{{data.link}}" id="hr_profile">
+		<div class="super-avatar">
+			<span class="navbar-avatar">
+				<sn-avatar class="avatar-small-medium" primary="user.sys_id" show-presence="false" style="margin-right: 20px">
+				</sn-avatar>
+			</span>
+		</div>
+		<h3 style="font-size: 23px; text-align: center; margin-bottom: 5px; margin-top: -5px; color: #606060;">{{user.name}}</h3>
+        <div style="text-align: center; margin-bottom: 10px; color: #606060;">
+              <span ng-if="user.title">{{user.title}}</span>
+              <span ng-if="user.title && profile.company.name"> ${at {{profile.company.name}}}</span>
+              <span ng-if="!user.title && profile.company.name"> ${Works at {{profile.company.name}}}</span>
+        </div>
+	</a>
+	<div ng-if="profile.employment_start_date">
+		<div style="text-align: center;" ng-if="profile.days_to_first_day >= 0">
+			<div style="font-size: 16px;">${My first day is}</div>
+			<div ng-switch="profile.days_to_first_day">
+				<div ng-switch-when="1">
+					<div id="days_due" class="first-day" style="font-size: 30px; margin: 10px 0 10px 0;">${Tomorrow}</div>
+				</div>
+				<div ng-switch-when="0">
+					<div id="days_due" class="first-day" style="font-size: 30px; margin: 10px 0 10px 0;">${Today}</div>
+				</div>
+				<div ng-switch-default>
+					<div id="start_date" class="first-day" style="font-size: 26px; margin: 10px 0 0 0;">{{profile.employment_start_date}}</div>
+					<div id="days_due" class="first-day" style="font-size: 23px; margin: 0 0 10px 0;">${{{profile.days_to_first_day}} days away}</div>
+				</div>
+			</div>
+			<div ng-if="profile.showAgenda">
+				<a href="?id=hrsp_first_day_agenda" class="agenda">${My first day agenda}</a>
+			</div>
+		</div>
+	</div>
+
+	<table class="info-table">
+		<tr>
+			<td class="hidden-xs">${Department}</td>
+			<td ng-if="profile.department.name">{{profile.department.name}}</td>
+			<td ng-if="!profile.department.name">${to be set}</td>
+		</tr>
+		<tr>
+			<td class="hidden-xs">${Phone}</td>
+			<td ng-if="data.work_phone">{{data.work_phone}}</td>
+			<td ng-if="!data.work_phone">${to be set}</td>
+		</tr>
+		<tr>
+			<td class="hidden-xs">${Email}</td>
+			<td ng-if="profile.work_email">{{profile.work_email}}</td>
+			<td ng-if="!profile.work_email">${to be set}</td>
+		</tr>
+		<tr ng-if="profile.mapUrl">
+			<td class="hidden-xs">${Location}</td>
+			<td>
+				<a target="_map" href="{{profile.mapUrl}}">{{profile.address}}</a>
+			</td>
+		</tr>
+	</table>
+</sp-panel>]]></template>
+    </sp_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Human Resources">5166e53e6f310f0061f06ea22e3ee44b</application>
+        <comments/>
+        <file_path/>
+        <instance_id>25bc9655a91c5d0058ebf191520622b5</instance_id>
+        <instance_name>shc</instance_name>
+        <name>sp_widget_7a8ac0f56f83cf0061f06ea22e3ee4c2</name>
+        <order/>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_widget"&gt;&lt;sp_widget action="INSERT_OR_UPDATE"&gt;&lt;client_script&gt;&lt;![CDATA[function myInformation($scope) {
+	$scope.$on('finishedChanged', function(event, data) {
+		$scope.profile = data.profile;
+		var loc = data.profile.location;
+		$scope.profile.address =  loc.street;
+		if (loc.city)
+			$scope.profile.address += ', ' + loc.city;
+
+		if (loc.state)
+			$scope.profile.address += ', ' + loc.state;
+
+		if (loc.zip)
+			$scope.profile.address += ' ' + loc.zip;
+
+		if (loc.street) {
+			$scope.profile.mapUrl = 'https://www.google.com/maps/search/' + loc.street.replace(/\s/g,'+') + '/@' + loc.latitude + ',' + loc.longitude + ',17z';
+			$scope.profile.mapIframe  =  loc.street.replace(/\s/g,'+');
+
+		}
+		$scope.profile.showAgenda = false; //showAgenda(data.hr_tasks);
+	});
+}
+
+function showAgenda(tasks){
+	for (var i = 0; i &lt; tasks.length; i++) {
+		if (tasks[i].template =='58314b0583c56058341a058316105836')
+			return tasks[i].finished;
+	}
+}]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css/&gt;&lt;data_table&gt;sp_instance_table&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list&gt;glyph,table,field_list,maximum_entries,display_field,order_by,order_direction&lt;/field_list&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id/&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link/&gt;&lt;name&gt;HR My Information LG&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[var gr = GlideRecord('hr_profile');
+gr.addQuery('user', gs.getUserID());
+gr.query();
+if (!gr.next()) {
+  gr.setValue('user', gs.getUserID());
+  gr.insert();
+}
+data.profile = gr;
+data.work_phone = gr.work_phone.getDisplayValue();
+var userId = gs.getUserID();
+var profileId = gr.getValue('sys_id');
+data.link = '?id=hrsp_user_profile&amp;sys_id='+ userId;
+]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;LGOMEZ&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2017-12-15 16:37:39&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;7a8ac0f56f83cf0061f06ea22e3ee4c2&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;HR My Information LG&lt;/sys_name&gt;&lt;sys_package display_value="Human Resources" source="x_sthc_human_resou"&gt;5166e53e6f310f0061f06ea22e3ee44b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Human Resources"&gt;5166e53e6f310f0061f06ea22e3ee44b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_7a8ac0f56f83cf0061f06ea22e3ee4c2&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;LGOMEZ&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2017-12-15 16:39:50&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;sp-panel rect="rect"&gt;
+	&lt;a href="{{data.link}}" id="hr_profile"&gt;
+		&lt;div class="super-avatar"&gt;
+			&lt;span class="navbar-avatar"&gt;
+				&lt;sn-avatar class="avatar-small-medium" primary="user.sys_id" show-presence="false" style="margin-right: 20px"&gt;
+				&lt;/sn-avatar&gt;
+			&lt;/span&gt;
+		&lt;/div&gt;
+		&lt;h3 style="font-size: 23px; text-align: center; margin-bottom: 5px; margin-top: -5px; color: #606060;"&gt;{{user.name}}&lt;/h3&gt;
+        &lt;div style="text-align: center; margin-bottom: 10px; color: #606060;"&gt;
+              &lt;span ng-if="user.title"&gt;{{user.title}}&lt;/span&gt;
+              &lt;span ng-if="user.title &amp;&amp; profile.company.name"&gt; ${at {{profile.company.name}}}&lt;/span&gt;
+              &lt;span ng-if="!user.title &amp;&amp; profile.company.name"&gt; ${Works at {{profile.company.name}}}&lt;/span&gt;
+        &lt;/div&gt;
+	&lt;/a&gt;
+	&lt;div ng-if="profile.employment_start_date"&gt;
+		&lt;div style="text-align: center;" ng-if="profile.days_to_first_day &gt;= 0"&gt;
+			&lt;div style="font-size: 16px;"&gt;${My first day is}&lt;/div&gt;
+			&lt;div ng-switch="profile.days_to_first_day"&gt;
+				&lt;div ng-switch-when="1"&gt;
+					&lt;div id="days_due" class="first-day" style="font-size: 30px; margin: 10px 0 10px 0;"&gt;${Tomorrow}&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;div ng-switch-when="0"&gt;
+					&lt;div id="days_due" class="first-day" style="font-size: 30px; margin: 10px 0 10px 0;"&gt;${Today}&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;div ng-switch-default&gt;
+					&lt;div id="start_date" class="first-day" style="font-size: 26px; margin: 10px 0 0 0;"&gt;{{profile.employment_start_date}}&lt;/div&gt;
+					&lt;div id="days_due" class="first-day" style="font-size: 23px; margin: 0 0 10px 0;"&gt;${{{profile.days_to_first_day}} days away}&lt;/div&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+			&lt;div ng-if="profile.showAgenda"&gt;
+				&lt;a href="?id=hrsp_first_day_agenda" class="agenda"&gt;${My first day agenda}&lt;/a&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;table class="info-table"&gt;
+		&lt;tr&gt;
+			&lt;td class="hidden-xs"&gt;${Department}&lt;/td&gt;
+			&lt;td ng-if="profile.department.name"&gt;{{profile.department.name}}&lt;/td&gt;
+			&lt;td ng-if="!profile.department.name"&gt;${to be set}&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td class="hidden-xs"&gt;${Phone}&lt;/td&gt;
+			&lt;td ng-if="data.work_phone"&gt;{{data.work_phone}}&lt;/td&gt;
+			&lt;td ng-if="!data.work_phone"&gt;${to be set}&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td class="hidden-xs"&gt;${Email}&lt;/td&gt;
+			&lt;td ng-if="profile.work_email"&gt;{{profile.work_email}}&lt;/td&gt;
+			&lt;td ng-if="!profile.work_email"&gt;${to be set}&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr ng-if="profile.mapUrl"&gt;
+			&lt;td class="hidden-xs"&gt;${Location}&lt;/td&gt;
+			&lt;td&gt;
+				&lt;a target="_map" href="{{profile.mapUrl}}"&gt;{{profile.address}}&lt;/a&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/table&gt;
+&lt;/sp-panel&gt;]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>704791830</payload_hash>
+        <record_name>HR My Information LG</record_name>
+        <reverted_from/>
+        <source>38037843dbc7834474471cb51b96190e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2017-12-19 16:47:04</sys_created_on>
+        <sys_id>bb033c43dbc7834474471cb51b96192f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1606fabe35d0000001</sys_recorded_at>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2017-12-19 16:47:04</sys_updated_on>
+        <type>Widget</type>
+        <update_guid>760b8839a783cf00b9d3ade1ea33c450</update_guid>
+        <update_guid_history>760b8839a783cf00b9d3ade1ea33c450:704791830,d9ba84395883cf00d4c2de159aa062a0:1975051565,3a8ac0f50183cf00457ff124f745c3c3:-39005328</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 12-19-2017 12:29:38">d948d1cbdb4bc34474471cb51b961949</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2017-12-19 19:29:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sp_widget">sp_widget</sys_db_object>
+        <sys_id>62d3b444b72f48dcb7dbff315fdf5f24</sys_id>
+        <sys_metadata>7a8ac0f56f83cf0061f06ea22e3ee4c2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HR My Information LG</sys_name>
+        <sys_package display_value="Human Resources" source="x_sthc_human_resou">5166e53e6f310f0061f06ea22e3ee44b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Human Resources">5166e53e6f310f0061f06ea22e3ee44b</sys_scope>
+        <sys_scope_delete display_value="">3db993b30109462d9691ad2bc0908089</sys_scope_delete>
+        <sys_update_name>sp_widget_7a8ac0f56f83cf0061f06ea22e3ee4c2</sys_update_name>
+        <sys_update_version display_value="sp_widget_7a8ac0f56f83cf0061f06ea22e3ee4c2">bb033c43dbc7834474471cb51b96192f</sys_update_version>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2017-12-19 19:29:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
