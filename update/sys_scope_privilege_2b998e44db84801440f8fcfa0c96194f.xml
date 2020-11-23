@@ -18,7 +18,7 @@
         <sys_updated_by>LGOMEZ</sys_updated_by>
         <sys_updated_on>2019-09-17 20:59:43</sys_updated_on>
         <target_name>VAContextualSearchUtil</target_name>
-        <target_scope display_value="ITSM Virtual Agent Conversations">134450a0b3781300787162ac16a8dc1e</target_scope>
+        <target_scope display_value="">134450a0b3781300787162ac16a8dc1e</target_scope>
         <target_type>sys_script_include</target_type>
     </sys_scope_privilege>
 </record_update>

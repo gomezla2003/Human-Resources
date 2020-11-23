@@ -14,6 +14,7 @@ Group will receive email communication of this case unless specified to a specif
         <options/>
         <order>5</order>
         <placement>top</placement>
+        <skippable>false</skippable>
         <step_type>step</step_type>
         <sys_class_name>sys_embedded_tour_step</sys_class_name>
         <sys_created_by>LGOMEZ</sys_created_by>

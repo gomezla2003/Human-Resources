@@ -3,6 +3,7 @@
         <active>true</active>
         <global>true</global>
         <group/>
+        <groups/>
         <link_element/>
         <name>test with tasks</name>
         <next/>

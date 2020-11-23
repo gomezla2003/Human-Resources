@@ -29,6 +29,7 @@
         <sys_update_name>sys_embedded_tour_guide_e2f12b99db238f4874471cb51b9619ed</sys_update_name>
         <sys_updated_by>LGOMEZ</sys_updated_by>
         <sys_updated_on>2019-08-09 19:48:58</sys_updated_on>
+        <tour_id/>
         <type>platform</type>
     </sys_embedded_tour_guide>
 </record_update>

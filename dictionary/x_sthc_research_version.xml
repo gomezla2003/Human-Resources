@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" label="Request" max_length="40" name="x_sthc_research_version" type="collection">
+    <element audit="true" label="Request" max_length="40" name="x_sthc_research_version" sizeclass="462" type="collection">
         <element label="\" max_length="40" name="x_sthc_human_resou_pre_build_complete" read_only="true" type="boolean"/>
     </element>
 </database>

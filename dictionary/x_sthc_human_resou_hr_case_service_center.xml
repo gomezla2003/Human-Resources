@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="email_client=true" audit="true" extends="task" label="HR Case (Service Center)" max_length="40" name="x_sthc_human_resou_hr_case_service_center" sizeclass="637" text_index="true" type="collection">
+    <element attributes="email_client=true" audit="true" extends="task" label="HR Case (Service Center)" max_length="40" name="x_sthc_human_resou_hr_case_service_center" sizeclass="7290" text_index="true" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Caller" max_length="32" name="caller" reference="sys_user" type="reference"/>
         <element choice="1" label="Category" mandatory="true" max_length="40" name="category" type="string">
             <choice>

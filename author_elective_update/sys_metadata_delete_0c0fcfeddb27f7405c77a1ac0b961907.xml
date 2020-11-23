@@ -162,7 +162,7 @@
             <sys_updated_on>2019-08-28 21:22:21</sys_updated_on>
             <value>8</value>
         </sys_choice>
-        <sys_choice_set action="INSERT_OR_UPDATE">
+        <sys_choice_set action="DELETE">
             <element>state</element>
             <name>x_sthc_human_resou_hr_case_service_center</name>
             <sys_class_name>sys_choice_set</sys_class_name>

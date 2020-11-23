@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
     <sysauto_script action="INSERT_OR_UPDATE">
         <active>false</active>
+        <business_calendar/>
         <condition/>
         <conditional>false</conditional>
+        <entered_time/>
         <name>Knowledge_Expire HR</name>
+        <offset/>
+        <offset_type>0</offset_type>
         <run_as display_value="Louie Gomez">9dd736c46fd4710068ceda0cbb3ee476</run_as>
         <run_as_tz/>
         <run_dayofmonth>1</run_dayofmonth>
@@ -33,6 +37,7 @@ while(gr.next()){
         <sys_update_name>sysauto_script_a432cc7ddbac4c9474471cb51b961987</sys_update_name>
         <sys_updated_by>LGOMEZ</sys_updated_by>
         <sys_updated_on>2019-10-17 18:22:40</sys_updated_on>
+        <time_zone/>
         <upgrade_safe>false</upgrade_safe>
     </sysauto_script>
 </record_update>

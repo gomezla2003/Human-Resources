@@ -2,7 +2,9 @@
     <cxs_table_config action="INSERT_OR_UPDATE">
         <active>true</active>
         <agent_intel_tab_active>true</agent_intel_tab_active>
+        <allow_empty_search_term>false</allow_empty_search_term>
         <allow_expand_collapse>true</allow_expand_collapse>
+        <allow_result_preview_buttons>true</allow_result_preview_buttons>
         <cxs_context_config display_value="Human Resources HonorHealth KB Search">717334696f1a870061f06ea22e3ee44d</cxs_context_config>
         <enable_source_selector>false</enable_source_selector>
         <kb_attachment>embed_link</kb_attachment>

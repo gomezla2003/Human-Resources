@@ -90,6 +90,7 @@ var menu = $sp.getValue("sp_rectangle_menu");
 data.menu = $sp.getWidgetFromInstance(menu);
 data.menu.data.replace = true;]]></script>
         <servicenow>false</servicenow>
+        <static>false</static>
         <sys_class_name>sp_header_footer</sys_class_name>
         <sys_created_by>LGOMEZ</sys_created_by>
         <sys_created_on>2017-12-19 20:17:02</sys_created_on>

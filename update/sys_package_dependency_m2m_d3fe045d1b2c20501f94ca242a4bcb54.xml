@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="System Import Sets" source="com.glide.system_import_set">6a106ad16f10110061f09ea22e3ee48d</dependency>
+        <min_version/>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2020-11-16 22:10:03</sys_created_on>
+        <sys_id>d3fe045d1b2c20501f94ca242a4bcb54</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Human Resources" source="x_sthc_human_resou">5166e53e6f310f0061f06ea22e3ee44b</sys_package>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2020-11-16 22:10:03</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>
